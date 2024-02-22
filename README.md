@@ -1,8 +1,7 @@
-- 👋 Hi, I’m @Jomagene, a rapid learner
+- 👋 Hi, I’m @Jomagene, an enthusiastic learner and programmer
 - 👀 I’m interested in HTML, CSS, Javascript, Figma, ReactJs, UI and UX, MongoDB
 - 🌱 I’m currently learning ReactJs
-- 📫 How to reach me at semjomagene@gmail.com
--
+- 📫 Reach me at semjomagene@gmail.com
 
 <!---
 Jomagene/Jomagene is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
