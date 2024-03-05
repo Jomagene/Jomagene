@@ -1,5 +1,5 @@
 # 💫 About Me:
-- 👋 Hi, I’m @Jomagene, an enthusiastic learner and programmer<br>- 👀 I’m interested in HTML, CSS, Javascript, Figma, ReactJs, UI and UX, MongoDB<br>- 🌱 I’m currently learning ReactJs<br>- 📫 Reach me at semjomagene@gmail.com
+- 👋 Hi, I’m @Jomagene, an enthusiastic learner and programmer<br>- 👀 I’m interested in HTML, CSS, Javascript, Figma, ReactJs, UI and UX, MongoDB<br>- 🌱 I’m currently learning ReactJs<br>-🌱 I would like to contribute on Wikimedia website<br>-📫 Reach me at semjomagene@gmail.com
 
 
 ## 🌐 Socials:
