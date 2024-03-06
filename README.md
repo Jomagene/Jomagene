@@ -1,5 +1,5 @@
 # 💫 About Me:
-- 👋 Hi, I’m @Jomagene, an enthusiastic learner and programmer<br>- 👀 I’m interested in HTML, CSS, Javascript, Figma, ReactJs, UI and UX, MongoDB<br>- 🌱 I’m currently learning ReactJs<br>-🌱 I would like to contribute on Wikimedia website<br>-📫 Reach me at semjomagene@gmail.com
+- 👋 Hi, I’m @Jomagene, an enthusiastic learner and programmer<br>- 👀 I’m interested in HTML, CSS, Javascript, Figma, ReactJs, UI and UX, MongoDB<br>- 🌱 I’m currently learning ReactJs<br>- I would like to contribute on Wikimedia website <br>-🔝 I will be delighted to participate to whatever interesting coding proposal<br>-📫 Reach me at semjomagene@gmail.com <br>
 
 
 ## 🌐 Socials:
@@ -16,6 +16,6 @@
 ![](https://github-contributor-stats.vercel.app/api?username=Jomagene&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Jomagene&icon=1&color=0)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=Jomagene&label=Profile%20Views&icon=7&pretty=false)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
