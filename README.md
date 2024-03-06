@@ -16,6 +16,6 @@
 ![](https://github-contributor-stats.vercel.app/api?username=Jomagene&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Jomagene&label=Profile%20Views&icon=7&pretty=false)]
+![](https://visitcount.itsvg.in/api?id=Jomagene&label=Profile%20Views&icon=7&pretty=false)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
