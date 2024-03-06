@@ -1,24 +1,37 @@
-# 💫 About Me:
-- 👋 Hi, I'm **@Jomagene**. I'm an enthusiastic learner and programmer with a keen interest in **HTML, CSS, Javascript, Figma, ReactJs, UI/UX, and MongoDB**.
-- 🌱 Currently, I'm deepening my knowledge of **ReactJs**.
-- 🤝 I'm eager to contribute to projects like the **Wikimedia website** and am open to interesting coding proposals.
-- 📫 Feel free to reach out to me at [semjomagene@gmail.com](mailto:semjomagene@gmail.com).
+# 💫 About Me
+Hello! I'm @Jomagene, a passionate learner and developer focused on crafting great web experiences. I specialize in HTML, CSS, JavaScript, Figma, ReactJS, UI/UX design, and MongoDB. My journey is currently focused on deepening my understanding of ReactJS. I aim to contribute to impactful projects like the Wikimedia website and am always open to engaging coding opportunities.
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/semmagene) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/semjomagene) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/@semjomagene)
+Feel free to reach out to me at [semjomagene@gmail.com](mailto:semjomagene@gmail.com) for collaborations or just a friendly chat about technology and innovation!
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ... ![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white)
+## 🌐 Connect with Me
+- [Instagram](https://instagram.com/semmagene)
+- [Pinterest](https://pinterest.com/semjomagene)
+- [Codepen](https://codepen.io/@semjomagene)
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Jomagene&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Jomagene&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Jomagene&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+## 💻 Tech Stack
+I love working with a wide array of technologies to bring my ideas to life. Here are some of the tools and technologies I've been working with:
+
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+...and many more!
+
+## 📊 My GitHub Stats
+I believe in the power of open source and actively contribute to various projects. Here's a quick overview of my contributions and activities:
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jomagene&theme=dark&hide_border=true&include_all_commits=false&count_private=false)
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Jomagene&theme=dark&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jomagene&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
 ### 🔝 Top Contributed Repos
-![](https://github-contributor-stats.vercel.app/api?username=Jomagene&limit=5&theme=dark&combine_all_yearly_contributions=true)
+Check out some of the repositories I've contributed to:
+
+![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=Jomagene&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-![Profile Views](https://visitcount.itsvg.in/api?id=Jomagene&label=Profile%20Views&icon=7&pretty=false)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+Curious about how many have viewed my profile? Here you go!
+
+[![Profile Views](https://visitcount.itsvg.in/api?id=Jomagene&label=Profile%20Views&icon=7&pretty=false)](https://visitcount.itsvg.in)
+
+*Proudly crafted with care and enthusiasm for technology.*
