@@ -1,49 +1,70 @@
-# 🌟 Welcome to My Profile! I'm @Jomagene
+<h1 align="center">🌌 Welcome to My Universe! I'm @Jomagene 🌌</h1>
+
+<p align="center">
+A voyage through my digital cosmos, where code meets creativity.
+</p>
 
 ---
 
-## 🎨 About Me
-I'm deeply passionate about **developing web experiences** that resonate. My expertise includes:
-
-- **HTML, CSS, JavaScript** - for building the foundation of web pages
-- **Figma & UI/UX Design** - to ensure engaging and user-friendly designs
-- **ReactJS ,NODEJS & MongoDB** - for dynamic front-end development and database management
-
-🔍 Currently, I'm enhancing my skills in **ReactJS**, aiming to contribute to impactful projects.
-
-💌 Interested in collaborating or chatting about tech? Drop me a line at [semjomagene@gmail.com](mailto:semjomagene@gmail.com)
-
----
-
-## 📫 Let's Connect!
-Feel free to reach out or follow my journey on:
-
-- 📸 [Instagram](https://instagram.com/semmagene)
-- 📌 [Pinterest](https://pinterest.com/semjomagene)
-- 💻 [Codepen](https://codepen.io/@semjomagene)
-
----
-
-## 🛠️ My Toolkit
-I leverage a diverse set of technologies to bring ideas to life. Here's a snapshot:
-
-| Frontend Development | Design & Other Tools |
-| -------------------- | -------------------- |
-| ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) | ![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) |
-| ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) |
-| ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) | ...and many more! |
-
----
-
-## 📊 My GitHub Journey
+## 🖌️ About Me
 
 <div align="center">
+  
+I'm on a mission to **craft web experiences** that not only perform but tell a story. My arsenal includes:
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jomagene&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
+- **HTML, CSS, JavaScript** 🚀 - Crafting the scaffold of the digital realm.
+- **Figma & UI/UX Design** 🎨 - Bringing aesthetics and user empathy to the forefront.
+- **ReactJS & MongoDB** ⚛️ - Engineering dynamic and responsive ecosystems.
 
-![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Jomagene&theme=radical&hide_border=true)
+Currently orbiting around **ReactJS**, I'm set on making a mark on projects that matter.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jomagene&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+📨 Keen on **collaborating** or just **nerding out about tech**? Beam me a message at: [semjomagene@gmail.com](mailto:semjomagene@gmail.com)
 
 </div>
 
+---
+
+## 🌐 Connect with Me
+
+<div align="center">
+
+Explore my digital footprints and connect with me on:
+
+<a href="https://instagram.com/semmagene"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://pinterest.com/semjomagene"><img src="https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=pinterest&logoColor=white"></a>
+<a href="https://codepen.io/@semjomagene"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white"></a>
+
+</div>
+
+---
+
+## 🛠️ Technologies & Tools
+
+<div align="center">
+
+I thrive on leveraging a versatile toolkit to breathe life into ideas:
+
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+...and infinitely more!
+
+</div>
+
+---
+
+## 🚀 My GitHub Odyssey
+
+<div align="center">
+
+Charting the constellations of my contributions and voyages in the open-source universe.
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jomagene&show_icons=true&theme=synthwave&hide_border=true&include_all_commits=true&count_private=true)
+
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Jomagene&theme=synthwave&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Jomagene&theme=synthwave&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+
+</div>
