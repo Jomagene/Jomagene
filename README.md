@@ -7,7 +7,7 @@ I'm deeply passionate about **developing web experiences** that resonate. My exp
 
 - **HTML, CSS, JavaScript** - for building the foundation of web pages
 - **Figma & UI/UX Design** - to ensure engaging and user-friendly designs
-- **ReactJS & MongoDB** - for dynamic front-end development and database management
+- **ReactJS ,NODEJS & MongoDB** - for dynamic front-end development and database management
 
 🔍 Currently, I'm enhancing my skills in **ReactJS**, aiming to contribute to impactful projects.
 
