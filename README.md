@@ -1,5 +1,7 @@
 <h1 align="center">🌌 Welcome to My Universe! I'm @Jomagene 🌌</h1>
 
+[![](https://visitcount.itsvg.in/api?id=Jomagene&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
+
 <p align="center">
 A voyage through my digital cosmos, where code meets creativity.
 </p>
