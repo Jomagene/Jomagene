@@ -35,6 +35,7 @@ Explore my digital footprints and connect with me on:
 <a href="https://instagram.com/semmagene"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
 <a href="https://pinterest.com/semjomagene"><img src="https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=pinterest&logoColor=white"></a>
 <a href="https://codepen.io/@semjomagene"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white"></a>
+[![Email](https://img.shields.io/badge/gmail: @Jomagene-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:semjomagene@gmail.com)
 
 </div>
 
