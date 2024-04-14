@@ -1,7 +1,5 @@
 <h1 align="center">🌌 Welcome to My Universe! I'm @Jomagene 🌌</h1>
 
-[![](https://visitcount.itsvg.in/api?id=Jomagene&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
-
 <p align="center">
 A voyage through my digital cosmos, where code meets creativity.
 </p>
@@ -10,7 +8,7 @@ A voyage through my digital cosmos, where code meets creativity.
 
 ## 🖌️ About Me
 
-<div align="center">
+<div align="justify">
   
 I'm on a mission to **craft web experiences** that not only perform but tell a story. My arsenal includes:
 
@@ -19,8 +17,8 @@ I'm on a mission to **craft web experiences** that not only perform but tell a s
 - **ReactJS & MongoDB** ⚛️ - Engineering dynamic and responsive ecosystems.
 
 Currently orbiting around **ReactJS**, I'm set on making a mark on projects that matter.
-
-📨 Keen on **collaborating** or just **nerding out about tech**? Beam me a message at: [semjomagene@gmail.com](mailto:semjomagene@gmail.com)
+<p>📚 Writing technical articles:</p>
+<a href="https://dev.to/jomagene" ><img src="https://img.shields.io/badge/dev.to-%231572B6.svg?style=for-the-badge&logo=devdotto&logoColor=white"/></a>
 
 </div>
 
@@ -32,15 +30,15 @@ Currently orbiting around **ReactJS**, I'm set on making a mark on projects that
 
 Explore my digital footprints and connect with me on:
 
-[![Email](https://img.shields.io/badge/gmail: @Jomagene-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:semjomagene@gmail.com)
-<a href=3https://t.me/joelmagene3><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
-<a href="https://instagram.com/semmagene"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-<a href="https://codepen.io/@semjomagene"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white"></a>
+[![Email](https://img.shields.io/badge/Gmail-%40Jomagene-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:semjomagene@gmail.com)
+<a href="https://t.me/joelmagene">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
+</a>
+<a href="https://www.linkedin.com/in/jo%C3%ABl-magene/">
+    <img src="https://img.shields.io/badge/Linkedin-E4405F?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
 
-</div>
-
----
-
+--- 
 ## 🛠️ Technologies & Tools
 
 <div align="center">
