@@ -1,7 +1,7 @@
-<h1 align="center">🌌 Welcome to My Universe! I'm @Jomagene 🌌</h1>
+<h1 align="center">🌌 Hello! I'm @Jomagene 🌌</h1>
 
 <p align="center">
-A voyage through my digital cosmos, where code meets creativity.
+  A voyage through my digital cosmos, where code meets creativity.
 </p>
 
 ---
@@ -10,15 +10,15 @@ A voyage through my digital cosmos, where code meets creativity.
 
 <div align="justify">
   
-I'm on a mission to **craft web experiences** that not only perform but tell a story. My arsenal includes:
-
-- **HTML, CSS, JavaScript** 🚀 - Crafting the scaffold of the digital realm.
-- **Figma & UI/UX Design** 🎨 - Bringing aesthetics and user empathy to the forefront.
-- **ReactJS & MongoDB** ⚛️ - Engineering dynamic and responsive ecosystems.
-
-Currently orbiting around **ReactJS**, I'm set on making a mark on projects that matter.
-<p>📚 Writing technical articles:</p>
-<a href="https://dev.to/jomagene" ><img src="https://img.shields.io/badge/dev.to-%231572B6.svg?style=for-the-badge&logo=devdotto&logoColor=white"/></a>
+  I'm on a mission to **craft web experiences** that not only perform but tell a story. My arsenal includes:
+  
+  - **HTML, CSS, JavaScript** 🚀 - Crafting the scaffold of the digital realm.
+  - **Figma & UI/UX Design** 🎨 - Bringing aesthetics and user empathy to the forefront.
+  - **ReactJS & MongoDB** ⚛️ - Engineering dynamic and responsive ecosystems.
+  
+  Currently orbiting around **ReactJS**, I'm set on making a mark on projects that matter.
+  <p>📚 Writing technical articles:</p>
+  <a href="https://dev.to/jomagene" ><img src="https://img.shields.io/badge/dev.to-%231572B6.svg?style=for-the-badge&logo=devdotto&logoColor=white"/></a>
 
 </div>
 
