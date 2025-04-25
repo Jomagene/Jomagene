@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=170&section=header&text=Joël%20Magene(aka%20SemJo)&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=white" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Joël%20Magene(aka%20SemJo)&fontSize=50&fontAlignY=35&animation=fadeIn&fontColor=white" />
 </div>
 
 <div align="center">
