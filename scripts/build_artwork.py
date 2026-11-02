@@ -4,10 +4,129 @@
 from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
+from xml.etree.ElementTree import SubElement
 
 from profile_svg import CYAN, INK, MUTED, ORANGE, PINK, WHITE, WIDTH, Svg
 
 ASSETS = Path(__file__).resolve().parents[1] / "assets"
+
+
+def animated_waves(canvas: Svg, width: int, height: int) -> None:
+    """Loop two full wave periods inside the card's rounded outline."""
+    definitions = canvas.root.find("defs")
+    if definitions is None:
+        definitions = SubElement(canvas.root, "defs")
+    clip = SubElement(definitions, "clipPath", {"id": "wave-frame"})
+    SubElement(
+        clip,
+        "rect",
+        {
+            "x": "1",
+            "y": "1",
+            "width": str(width - 2),
+            "height": str(height - 2),
+            "rx": "20",
+        },
+    )
+    canvas.element("style").text = (
+        f"@keyframes drift{{to{{transform:translateX(-{width}px)}}}}"
+        ".wave{animation:drift 12s linear infinite}"
+        ".wave-back{animation-duration:18s;animation-direction:reverse}"
+        "@media(prefers-reduced-motion:reduce){.wave{animation:none}}"
+    )
+    frame = canvas.element("g", clip_path="url(#wave-frame)")
+    paint = canvas.gradient("wave-colour", ("#9268ef", "#e878b1", "#73d1ed"))
+    quarter = width / 4
+    amplitude = 14 if width > 600 else 9
+    for offset, opacity, class_name in (
+        (0, ".45", "wave wave-back"),
+        (10, ".35", "wave"),
+    ):
+        baseline = height - 23 + offset
+        path = (
+            f"M 0 {baseline} "
+            f"C {quarter} {baseline - amplitude} {3 * quarter} {baseline + amplitude} {width} {baseline} "
+            f"C {5 * quarter} {baseline - amplitude} {7 * quarter} {baseline + amplitude} {2 * width} {baseline} "
+            f"L {2 * width} {height + 20} L 0 {height + 20} Z"
+        )
+        SubElement(
+            frame,
+            "path",
+            {"d": path, "fill": paint, "opacity": opacity, "class": class_name},
+        )
+
+
+def typing_banner(width: int = WIDTH) -> Svg:
+    roles = (
+        "PHP & JavaScript Developer",
+        "Tiki Wiki CMS Groupware Contributor",
+        "Regression Tests & Browser QA",
+        "Technical Writer / HNG12 Finalist",
+    )
+    canvas = Svg(width, 64, "Development, open source and testing", "; ".join(roles))
+    canvas.root.remove(canvas.root.find("rect"))
+    canvas.element("style").text = (
+        ".role{opacity:0;animation:role-phase 16s linear infinite}"
+        "@keyframes role-phase{0%,24.99%{opacity:1}25%,100%{opacity:0}}"
+        ".reveal{animation:type-line 4s steps(34,end) infinite}"
+        ".caret{animation:move-caret 4s steps(34,end) infinite,blink .8s steps(1,end) infinite}"
+        "@keyframes type-line{0%,8%{width:0}45%,77%{width:var(--line-width)}98%,100%{width:0}}"
+        "@keyframes move-caret{0%,8%{transform:translateX(0)}"
+        "45%,77%{transform:translateX(var(--line-width))}98%,100%{transform:translateX(0)}}"
+        "@keyframes blink{50%{opacity:0}}"
+        "@media(prefers-reduced-motion:reduce){.role{animation:none;opacity:0}"
+        ".role-first{opacity:1}.reveal{animation:none;width:var(--line-width)}.caret{display:none}}"
+    )
+    definitions = SubElement(canvas.root, "defs")
+    font_size = 18 if width < 600 else 28
+    for index, role in enumerate(roles):
+        line_width = round(len(role) * font_size * 0.6)
+        left = (width - line_width) / 2
+        clip = SubElement(definitions, "clipPath", {"id": f"typing-{index}"})
+        SubElement(
+            clip,
+            "rect",
+            {
+                "x": str(left),
+                "y": "8",
+                "height": "48",
+                "width": "0",
+                "class": "reveal",
+                "style": f"--line-width:{line_width}px",
+            },
+        )
+        group = canvas.element(
+            "g",
+            class_="role role-first" if index == 0 else "role",
+            style=f"animation-delay:{index * 4}s;--line-width:{line_width}px",
+        )
+        SubElement(
+            group,
+            "text",
+            {
+                "x": str(left),
+                "y": "42",
+                "font-size": str(font_size),
+                "font-family": "DejaVu Sans Mono,monospace",
+                "fill": PINK,
+                "textLength": str(line_width),
+                "lengthAdjust": "spacingAndGlyphs",
+                "clip-path": f"url(#typing-{index})",
+            },
+        ).text = role
+        SubElement(
+            group,
+            "rect",
+            {
+                "x": str(left),
+                "y": "17",
+                "width": "2",
+                "height": "30",
+                "fill": CYAN,
+                "class": "caret",
+            },
+        )
+    return canvas
 
 
 def hero() -> Svg:
@@ -61,12 +180,7 @@ def hero() -> Svg:
     ):
         canvas.circle(851, y - 5, 4, PINK)
         canvas.text(866, y, label, 14, WHITE)
-    canvas.element(
-        "path",
-        d="M 1 330 C 220 297 380 371 643 337 S 980 311 1199 327 L 1199 340 Q 1199 359 1180 359 H 20 Q 1 359 1 340 Z",
-        fill=glow,
-        opacity="0.3",
-    )
+    animated_waves(canvas, WIDTH, 360)
     return canvas
 
 
@@ -79,7 +193,8 @@ def mobile_hero() -> Svg:
     canvas.text(28, 133, "aka SemJo", 17, PINK, mono=True)
     canvas.text(28, 174, "PHP · JavaScript · Open source · QA", 18, WHITE)
     canvas.text(28, 211, "Goma / Gisenyi", 13, MUTED, mono=True)
-    canvas.text(28, 238, "HNG12 finalist · top 432 / 11,285", 13, CYAN, mono=True)
+    canvas.text(28, 228, "HNG12 finalist · top 432 / 11,285", 13, CYAN, mono=True)
+    animated_waves(canvas, 480, 260)
     return canvas
 
 
@@ -208,6 +323,7 @@ def footer() -> Svg:
         letter_spacing=-1,
     )
     canvas.text(34, 100, "semjomagene@gmail.com", 20, CYAN, mono=True)
+    animated_waves(canvas, WIDTH, 140)
     canvas.circle(1136, 70, 28, "#ad83eb")
     canvas.text(1122, 81, "↗", 32, WHITE, 700)
     return canvas
@@ -217,6 +333,8 @@ def main() -> None:
     artwork = {
         "hero.svg": hero(),
         "hero-mobile.svg": mobile_hero(),
+        "typing.svg": typing_banner(),
+        "typing-mobile.svg": typing_banner(480),
         "contact.svg": footer(),
     }
     for position, project in enumerate(PROJECTS, start=1):

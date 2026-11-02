@@ -6,14 +6,16 @@ depend on a third-party image service being available.
 
 ## Update the profile
 
-Edit `README.md` for the bio, skills, contribution links and project descriptions.
+Edit `README.md` for the short bio and links. Project notes and longer contribution
+explanations stay in expandable sections so the main profile remains easy to scan.
 Edit `scripts/build_artwork.py` for the header and project illustrations. The
 `PROJECTS` records hold the card titles and technologies; each illustration has
 its own function. Colours, typography and SVG helpers live in `profile_svg.py`.
 
 The header, technology icons and activity cards use separate layouts below 600px.
-Decorative motion
-in the desktop header respects reduced-motion settings. Project cards are
+The header and contact card use moving waves; a local SVG types the profile roles.
+Both animations respect reduced-motion settings and the typing line keeps a readable
+static role when motion is reduced. Project cards are
 illustrations, not screenshots. Skills and project descriptions are also written
 as regular README text, so they remain readable on narrow screens.
 

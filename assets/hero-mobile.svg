@@ -8,6 +8,14 @@
       <stop offset="50%" stop-color="#d95ca5" />
       <stop offset="100%" stop-color="#54b8ee" />
     </linearGradient>
+    <clipPath id="wave-frame">
+      <rect x="1" y="1" width="478" height="258" rx="20" />
+    </clipPath>
+    <linearGradient id="wave-colour" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9268ef" />
+      <stop offset="50%" stop-color="#e878b1" />
+      <stop offset="100%" stop-color="#73d1ed" />
+    </linearGradient>
   </defs>
   <rect x="1" y="1" width="478" height="258" rx="20" fill="url(#hero-glow)" fill-opacity="0.15" />
   <text x="26" y="36" font-size="12" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">WEB DEVELOPER / TIKI CONTRIBUTOR</text>
@@ -15,5 +23,10 @@
   <text x="28" y="133" font-size="17" fill="#ff85bd" font-weight="400" font-family="DejaVu Sans Mono,monospace">aka SemJo</text>
   <text x="28" y="174" font-size="18" fill="#f6f2ff" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">PHP · JavaScript · Open source · QA</text>
   <text x="28" y="211" font-size="13" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Goma / Gisenyi</text>
-  <text x="28" y="238" font-size="13" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans Mono,monospace">HNG12 finalist · top 432 / 11,285</text>
+  <text x="28" y="228" font-size="13" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans Mono,monospace">HNG12 finalist · top 432 / 11,285</text>
+  <style>@keyframes drift{to{transform:translateX(-480px)}}.wave{animation:drift 12s linear infinite}.wave-back{animation-duration:18s;animation-direction:reverse}@media(prefers-reduced-motion:reduce){.wave{animation:none}}</style>
+  <g clip-path="url(#wave-frame)">
+    <path d="M 0 237 C 120.0 228 360.0 246 480 237 C 600.0 228 840.0 246 960 237 L 960 280 L 0 280 Z" fill="url(#wave-colour)" opacity=".45" class="wave wave-back" />
+    <path d="M 0 247 C 120.0 238 360.0 256 480 247 C 600.0 238 840.0 256 960 247 L 960 280 L 0 280 Z" fill="url(#wave-colour)" opacity=".35" class="wave" />
+  </g>
 </svg>

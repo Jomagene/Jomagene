@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-labelledby="title description">
+  <title id="title">Development, open source and testing</title>
+  <desc id="description">PHP &amp; JavaScript Developer; Tiki Wiki CMS Groupware Contributor; Regression Tests &amp; Browser QA; Technical Writer / HNG12 Finalist</desc>
+  <style>.role{opacity:0;animation:role-phase 16s linear infinite}@keyframes role-phase{0%,24.99%{opacity:1}25%,100%{opacity:0}}.reveal{animation:type-line 4s steps(34,end) infinite}.caret{animation:move-caret 4s steps(34,end) infinite,blink .8s steps(1,end) infinite}@keyframes type-line{0%,8%{width:0}45%,77%{width:var(--line-width)}98%,100%{width:0}}@keyframes move-caret{0%,8%{transform:translateX(0)}45%,77%{transform:translateX(var(--line-width))}98%,100%{transform:translateX(0)}}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.role{animation:none;opacity:0}.role-first{opacity:1}.reveal{animation:none;width:var(--line-width)}.caret{display:none}}</style>
+  <defs>
+    <clipPath id="typing-0">
+      <rect x="381.5" y="8" height="48" width="0" class="reveal" style="--line-width:437px" />
+    </clipPath>
+    <clipPath id="typing-1">
+      <rect x="306.0" y="8" height="48" width="0" class="reveal" style="--line-width:588px" />
+    </clipPath>
+    <clipPath id="typing-2">
+      <rect x="356.5" y="8" height="48" width="0" class="reveal" style="--line-width:487px" />
+    </clipPath>
+    <clipPath id="typing-3">
+      <rect x="323.0" y="8" height="48" width="0" class="reveal" style="--line-width:554px" />
+    </clipPath>
+  </defs>
+  <g class="role role-first" style="animation-delay:0s;--line-width:437px">
+    <text x="381.5" y="42" font-size="28" font-family="DejaVu Sans Mono,monospace" fill="#ff85bd" textLength="437" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing-0)">PHP &amp; JavaScript Developer</text>
+    <rect x="381.5" y="17" width="2" height="30" fill="#7de0fa" class="caret" />
+  </g>
+  <g class="role" style="animation-delay:4s;--line-width:588px">
+    <text x="306.0" y="42" font-size="28" font-family="DejaVu Sans Mono,monospace" fill="#ff85bd" textLength="588" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing-1)">Tiki Wiki CMS Groupware Contributor</text>
+    <rect x="306.0" y="17" width="2" height="30" fill="#7de0fa" class="caret" />
+  </g>
+  <g class="role" style="animation-delay:8s;--line-width:487px">
+    <text x="356.5" y="42" font-size="28" font-family="DejaVu Sans Mono,monospace" fill="#ff85bd" textLength="487" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing-2)">Regression Tests &amp; Browser QA</text>
+    <rect x="356.5" y="17" width="2" height="30" fill="#7de0fa" class="caret" />
+  </g>
+  <g class="role" style="animation-delay:12s;--line-width:554px">
+    <text x="323.0" y="42" font-size="28" font-family="DejaVu Sans Mono,monospace" fill="#ff85bd" textLength="554" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing-3)">Technical Writer / HNG12 Finalist</text>
+    <rect x="323.0" y="17" width="2" height="30" fill="#7de0fa" class="caret" />
+  </g>
+</svg>

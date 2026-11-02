@@ -8,6 +8,14 @@
       <stop offset="50%" stop-color="#d95ca5" />
       <stop offset="100%" stop-color="#54b8ee" />
     </linearGradient>
+    <clipPath id="wave-frame">
+      <rect x="1" y="1" width="1198" height="358" rx="20" />
+    </clipPath>
+    <linearGradient id="wave-colour" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9268ef" />
+      <stop offset="50%" stop-color="#e878b1" />
+      <stop offset="100%" stop-color="#73d1ed" />
+    </linearGradient>
   </defs>
   <rect x="1" y="1" width="1198" height="358" rx="20" fill="url(#hero-glow)" fill-opacity="0.13" />
   <circle cx="1048" cy="95" r="132" fill="#9b70ff" opacity="0.07" class="signal" />
@@ -38,5 +46,9 @@
   <text x="866" y="219" font-size="14" fill="#f6f2ff" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">Fix it and add tests</text>
   <circle cx="851" cy="243" r="4" fill="#ff85bd" />
   <text x="866" y="248" font-size="14" fill="#f6f2ff" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">Check it in the browser</text>
-  <path d="M 1 330 C 220 297 380 371 643 337 S 980 311 1199 327 L 1199 340 Q 1199 359 1180 359 H 20 Q 1 359 1 340 Z" fill="url(#hero-glow)" opacity="0.3" />
+  <style>@keyframes drift{to{transform:translateX(-1200px)}}.wave{animation:drift 12s linear infinite}.wave-back{animation-duration:18s;animation-direction:reverse}@media(prefers-reduced-motion:reduce){.wave{animation:none}}</style>
+  <g clip-path="url(#wave-frame)">
+    <path d="M 0 337 C 300.0 323 900.0 351 1200 337 C 1500.0 323 2100.0 351 2400 337 L 2400 380 L 0 380 Z" fill="url(#wave-colour)" opacity=".45" class="wave wave-back" />
+    <path d="M 0 347 C 300.0 333 900.0 361 1200 347 C 1500.0 333 2100.0 361 2400 347 L 2400 380 L 0 380 Z" fill="url(#wave-colour)" opacity=".35" class="wave" />
+  </g>
 </svg>
