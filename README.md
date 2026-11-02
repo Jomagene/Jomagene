@@ -30,8 +30,8 @@ I’m **Joël (SemJo)**, a civil engineer turned web developer and **Tiki Wiki C
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/vendor/stack-mobile.svg" />
-    <img src="./assets/vendor/stack.svg" width="840" alt="PHP, JavaScript, TypeScript, React, Next.js, HTML, CSS, Tailwind, Sass, Git, GitLab, Vite and Figma" />
+    <source media="(max-width: 600px)" srcset="./assets/skills-mobile.svg" />
+    <img src="./assets/skills.svg" width="840" alt="PHP, JavaScript, TypeScript, React, Next.js, HTML, CSS, Tailwind, Sass, Git, GitLab, Vite and Figma" />
   </picture>
 </p>
 

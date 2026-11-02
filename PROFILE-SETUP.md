@@ -14,10 +14,12 @@ its own function. Colours, typography and SVG helpers live in `profile_svg.py`.
 
 The header, technology icons and activity cards use separate layouts below 600px.
 The header and contact card use moving waves; a local SVG types the profile roles.
-Both animations respect reduced-motion settings and the typing line keeps a readable
-static role when motion is reduced. Project cards are
-illustrations, not screenshots. Skills and project descriptions are also written
-as regular README text, so they remain readable on narrow screens.
+Skill icons and metric cards enter once; the GitLab grid reveals from left to right
+without changing any values. These short entrances run when each image loads,
+rather than being triggered by scrolling. All effects respect reduced-motion
+settings; the typing line keeps a readable static role when motion is reduced.
+Project cards are illustrations, not screenshots. Core languages and QA tools
+also appear as README text, with project notes in expandable sections.
 
 The profile describes PHP, JavaScript, Smarty, SQL, Tiki development and QA work.
 The linked Tiki merge requests provide examples: language handling (!11282),
@@ -81,7 +83,9 @@ Headers, contact and project illustrations are generated from the source in this
 repository. `assets/vendor/stack.svg` comes from
 [Skill Icons](https://github.com/tandpfun/skill-icons); its MIT licence is included
 beside the image. The four social badges come from [Shields.io](https://shields.io).
-These are static local files and are not downloaded by the daily workflow.
+These originals are not downloaded by the daily workflow. `skills.svg` and
+`skills-mobile.svg` are generated from the licensed icon files with short, staggered
+entrances. The vendor originals remain unchanged.
 
 ## References
 

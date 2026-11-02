@@ -2,8 +2,10 @@
 """Rebuild the original vector artwork. No downloads, fonts or packages needed."""
 
 from collections.abc import Callable
+from copy import deepcopy
 from dataclasses import dataclass
 from pathlib import Path
+from xml.etree import ElementTree as ET
 from xml.etree.ElementTree import SubElement
 
 from profile_svg import CYAN, INK, MUTED, ORANGE, PINK, WHITE, WIDTH, Svg
@@ -329,6 +331,28 @@ def footer() -> Svg:
     return canvas
 
 
+def skill_icons(mobile: bool = False) -> Svg:
+    """Add staggered entrances to local Skill Icons; leave the licensed originals intact."""
+    name = "stack-mobile.svg" if mobile else "stack.svg"
+    source = ET.parse(ASSETS / "vendor" / name).getroot()
+    canvas = Svg(
+        1,
+        1,
+        "Development tools",
+        "PHP, JavaScript, TypeScript, React, Next.js, HTML, CSS, Tailwind, Sass, Git, GitLab, Vite and Figma",
+    )
+    canvas.root.remove(canvas.root.find("rect"))
+    for key in ("width", "height", "viewBox", "fill"):
+        canvas.root.set(key, source.attrib[key])
+    for index, original in enumerate(source):
+        node = deepcopy(original)
+        canvas.root.append(node)
+        if node.tag.rsplit("}", 1)[-1] == "g":
+            # Preserve the icon's layout transform on the outer group.
+            canvas.entrance(list(node), delay=index * 0.035, lift=0, parent=node)
+    return canvas
+
+
 def main() -> None:
     artwork = {
         "hero.svg": hero(),
@@ -336,12 +360,14 @@ def main() -> None:
         "typing.svg": typing_banner(),
         "typing-mobile.svg": typing_banner(480),
         "contact.svg": footer(),
+        "skills.svg": skill_icons(),
+        "skills-mobile.svg": skill_icons(mobile=True),
     }
     for position, project in enumerate(PROJECTS, start=1):
         artwork[project.filename] = project_card(project, position)
     for filename, canvas in artwork.items():
         canvas.save(ASSETS / filename)
-    print(f"Built {len(artwork)} original SVG illustrations")
+    print(f"Built {len(artwork)} profile SVGs")
 
 
 if __name__ == "__main__":

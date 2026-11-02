@@ -3,1121 +3,1134 @@
   <desc id="description">1254 contribution events over 365 days; 179 active days; longest streak 8 days. 2025-11-03 through 2026-11-02. Counts reflect the publicly visible GitLab calendar, including pushes, merge requests and comments.</desc>
   <rect x="1" y="1" width="478" height="383" rx="20" fill="#111125" stroke="#393153" />
   <text x="16" y="37" font-size="12" fill="#ff85bd" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">GITLAB / CONTRIBUTIONS</text>
-  <rect x="16" y="68" width="132" height="111" rx="12" fill="#1b1a34" stroke="#393153" />
-  <text x="38" y="113" font-size="30" fill="#ff85bd" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">1,254</text>
-  <text x="38" y="142" font-size="12" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Events</text>
-  <rect x="174" y="68" width="132" height="111" rx="12" fill="#1b1a34" stroke="#393153" />
-  <text x="196" y="113" font-size="30" fill="#7de0fa" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">179</text>
-  <text x="196" y="142" font-size="12" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Active days</text>
-  <rect x="332" y="68" width="132" height="111" rx="12" fill="#1b1a34" stroke="#393153" />
-  <text x="354" y="113" font-size="30" fill="#f6f2ff" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">8</text>
-  <text x="354" y="142" font-size="12" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Best streak</text>
+  <style id="entrance-style">.entrance{animation:arrive .55s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--delay,0s)}@keyframes arrive{from{opacity:0;transform:translateY(var(--lift,6px))}to{opacity:1;transform:translateY(0)}}@media(prefers-reduced-motion:reduce){.entrance{animation:none}}</style>
+  <g class="entrance" style="--delay:0s;--lift:6px">
+    <rect x="16" y="68" width="132" height="111" rx="12" fill="#1b1a34" stroke="#393153" />
+    <text x="38" y="113" font-size="30" fill="#ff85bd" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">1,254</text>
+    <text x="38" y="142" font-size="12" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Events</text>
+  </g>
+  <g class="entrance" style="--delay:0.08s;--lift:6px">
+    <rect x="174" y="68" width="132" height="111" rx="12" fill="#1b1a34" stroke="#393153" />
+    <text x="196" y="113" font-size="30" fill="#7de0fa" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">179</text>
+    <text x="196" y="142" font-size="12" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Active days</text>
+  </g>
+  <g class="entrance" style="--delay:0.16s;--lift:6px">
+    <rect x="332" y="68" width="132" height="111" rx="12" fill="#1b1a34" stroke="#393153" />
+    <text x="354" y="113" font-size="30" fill="#f6f2ff" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">8</text>
+    <text x="354" y="142" font-size="12" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Best streak</text>
+  </g>
+  <defs>
+    <clipPath id="calendar-reveal" clipPathUnits="userSpaceOnUse">
+      <rect x="38" y="218" width="424" height="98" class="calendar-window" style="--reveal-width:424px" />
+    </clipPath>
+  </defs>
+  <style>.calendar-window{animation:unveil 1.05s steps(53,end) .15s both}@keyframes unveil{from{width:0}to{width:var(--reveal-width)}}@media(prefers-reduced-motion:reduce){.calendar-window{animation:none}}</style>
   <text x="38" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Nov</text>
-  <rect x="38" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="38" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-03: 0 contribution events</title>
   </rect>
-  <rect x="38" y="246" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="38" y="246" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2025-11-04: 16 contribution events</title>
   </rect>
-  <rect x="38" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="38" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-05: 0 contribution events</title>
   </rect>
-  <rect x="38" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="38" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-11-06: 3 contribution events</title>
   </rect>
-  <rect x="38" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="38" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-07: 0 contribution events</title>
   </rect>
-  <rect x="38" y="302" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="38" y="302" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-11-08: 4 contribution events</title>
   </rect>
-  <rect x="46" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="46" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-09: 0 contribution events</title>
   </rect>
-  <rect x="46" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="46" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-11-10: 4 contribution events</title>
   </rect>
-  <rect x="46" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="46" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-11: 0 contribution events</title>
   </rect>
-  <rect x="46" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="46" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-12: 0 contribution events</title>
   </rect>
-  <rect x="46" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="46" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-11-13: 3 contribution events</title>
   </rect>
-  <rect x="46" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="46" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-11-14: 1 contribution events</title>
   </rect>
-  <rect x="46" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="46" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-15: 0 contribution events</title>
   </rect>
-  <rect x="54" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="54" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-16: 0 contribution events</title>
   </rect>
-  <rect x="54" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="54" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-17: 0 contribution events</title>
   </rect>
-  <rect x="54" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="54" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-18: 0 contribution events</title>
   </rect>
-  <rect x="54" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="54" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-19: 0 contribution events</title>
   </rect>
-  <rect x="54" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="54" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-11-20: 1 contribution events</title>
   </rect>
-  <rect x="54" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="54" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-21: 0 contribution events</title>
   </rect>
-  <rect x="54" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="54" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-22: 0 contribution events</title>
   </rect>
-  <rect x="62" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="62" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-23: 0 contribution events</title>
   </rect>
-  <rect x="62" y="232" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="62" y="232" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2025-11-24: 11 contribution events</title>
   </rect>
-  <rect x="62" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="62" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-11-25: 2 contribution events</title>
   </rect>
-  <rect x="62" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="62" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-26: 0 contribution events</title>
   </rect>
-  <rect x="62" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="62" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-27: 0 contribution events</title>
   </rect>
-  <rect x="62" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="62" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-11-28: 2 contribution events</title>
   </rect>
-  <rect x="62" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="62" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-29: 0 contribution events</title>
   </rect>
-  <rect x="70" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="70" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-30: 0 contribution events</title>
   </rect>
   <text x="70" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Dec</text>
-  <rect x="70" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="70" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-12-01: 1 contribution events</title>
   </rect>
-  <rect x="70" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="70" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-02: 0 contribution events</title>
   </rect>
-  <rect x="70" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="70" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-03: 0 contribution events</title>
   </rect>
-  <rect x="70" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="70" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-04: 0 contribution events</title>
   </rect>
-  <rect x="70" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="70" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-12-05: 1 contribution events</title>
   </rect>
-  <rect x="70" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="70" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-06: 0 contribution events</title>
   </rect>
-  <rect x="78" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="78" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-07: 0 contribution events</title>
   </rect>
-  <rect x="78" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="78" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-08: 0 contribution events</title>
   </rect>
-  <rect x="78" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="78" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-09: 0 contribution events</title>
   </rect>
-  <rect x="78" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="78" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-10: 0 contribution events</title>
   </rect>
-  <rect x="78" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="78" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-11: 0 contribution events</title>
   </rect>
-  <rect x="78" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="78" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-12-12: 1 contribution events</title>
   </rect>
-  <rect x="78" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="78" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-13: 0 contribution events</title>
   </rect>
-  <rect x="86" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="86" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-14: 0 contribution events</title>
   </rect>
-  <rect x="86" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="86" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-15: 0 contribution events</title>
   </rect>
-  <rect x="86" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="86" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-16: 0 contribution events</title>
   </rect>
-  <rect x="86" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="86" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-17: 0 contribution events</title>
   </rect>
-  <rect x="86" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="86" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-12-18: 2 contribution events</title>
   </rect>
-  <rect x="86" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="86" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-19: 0 contribution events</title>
   </rect>
-  <rect x="86" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="86" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-20: 0 contribution events</title>
   </rect>
-  <rect x="94" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="94" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-21: 0 contribution events</title>
   </rect>
-  <rect x="94" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="94" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-22: 0 contribution events</title>
   </rect>
-  <rect x="94" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="94" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-23: 0 contribution events</title>
   </rect>
-  <rect x="94" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="94" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-24: 0 contribution events</title>
   </rect>
-  <rect x="94" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="94" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-25: 0 contribution events</title>
   </rect>
-  <rect x="94" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="94" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-12-26: 5 contribution events</title>
   </rect>
-  <rect x="94" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="94" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-27: 0 contribution events</title>
   </rect>
-  <rect x="102" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="102" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-12-28: 0 contribution events</title>
   </rect>
-  <rect x="102" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="102" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-12-29: 3 contribution events</title>
   </rect>
-  <rect x="102" y="246" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="102" y="246" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2025-12-30: 11 contribution events</title>
   </rect>
-  <rect x="102" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="102" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2025-12-31: 1 contribution events</title>
   </rect>
   <text x="102" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Jan</text>
-  <rect x="102" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="102" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-01: 0 contribution events</title>
   </rect>
-  <rect x="102" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="102" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-01-02: 3 contribution events</title>
   </rect>
-  <rect x="102" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="102" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-03: 0 contribution events</title>
   </rect>
-  <rect x="110" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="110" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-04: 0 contribution events</title>
   </rect>
-  <rect x="110" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="110" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-05: 0 contribution events</title>
   </rect>
-  <rect x="110" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="110" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-06: 0 contribution events</title>
   </rect>
-  <rect x="110" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="110" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-07: 0 contribution events</title>
   </rect>
-  <rect x="110" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="110" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-01-08: 2 contribution events</title>
   </rect>
-  <rect x="110" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="110" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-09: 0 contribution events</title>
   </rect>
-  <rect x="110" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="110" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-10: 0 contribution events</title>
   </rect>
-  <rect x="118" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="118" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-11: 0 contribution events</title>
   </rect>
-  <rect x="118" y="232" width="6" height="10" rx="2" fill="#ff85bd">
+  <rect x="118" y="232" width="6" height="10" rx="2" fill="#ff85bd" clip-path="url(#calendar-reveal)">
     <title>2026-01-12: 22 contribution events</title>
   </rect>
-  <rect x="118" y="246" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="118" y="246" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-01-13: 11 contribution events</title>
   </rect>
-  <rect x="118" y="260" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="118" y="260" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-01-14: 8 contribution events</title>
   </rect>
-  <rect x="118" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="118" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-01-15: 1 contribution events</title>
   </rect>
-  <rect x="118" y="288" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="118" y="288" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-01-16: 10 contribution events</title>
   </rect>
-  <rect x="118" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="118" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-17: 0 contribution events</title>
   </rect>
-  <rect x="126" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="126" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-18: 0 contribution events</title>
   </rect>
-  <rect x="126" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="126" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-19: 0 contribution events</title>
   </rect>
-  <rect x="126" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="126" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-20: 0 contribution events</title>
   </rect>
-  <rect x="126" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="126" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-01-21: 5 contribution events</title>
   </rect>
-  <rect x="126" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="126" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-22: 0 contribution events</title>
   </rect>
-  <rect x="126" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="126" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-23: 0 contribution events</title>
   </rect>
-  <rect x="126" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="126" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-24: 0 contribution events</title>
   </rect>
-  <rect x="134" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="134" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-25: 0 contribution events</title>
   </rect>
-  <rect x="134" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="134" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-26: 0 contribution events</title>
   </rect>
-  <rect x="134" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="134" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-27: 0 contribution events</title>
   </rect>
-  <rect x="134" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="134" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-28: 0 contribution events</title>
   </rect>
-  <rect x="134" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="134" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-29: 0 contribution events</title>
   </rect>
-  <rect x="134" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="134" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-30: 0 contribution events</title>
   </rect>
-  <rect x="134" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="134" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-01-31: 0 contribution events</title>
   </rect>
   <text x="142" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Feb</text>
-  <rect x="142" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="142" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-01: 0 contribution events</title>
   </rect>
-  <rect x="142" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="142" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-02: 0 contribution events</title>
   </rect>
-  <rect x="142" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="142" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-02-03: 2 contribution events</title>
   </rect>
-  <rect x="142" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="142" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-04: 0 contribution events</title>
   </rect>
-  <rect x="142" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="142" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-05: 0 contribution events</title>
   </rect>
-  <rect x="142" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="142" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-02-06: 1 contribution events</title>
   </rect>
-  <rect x="142" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="142" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-07: 0 contribution events</title>
   </rect>
-  <rect x="150" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="150" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-08: 0 contribution events</title>
   </rect>
-  <rect x="150" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="150" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-02-09: 2 contribution events</title>
   </rect>
-  <rect x="150" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="150" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-02-10: 1 contribution events</title>
   </rect>
-  <rect x="150" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="150" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-11: 0 contribution events</title>
   </rect>
-  <rect x="150" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="150" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-12: 0 contribution events</title>
   </rect>
-  <rect x="150" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="150" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-13: 0 contribution events</title>
   </rect>
-  <rect x="150" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="150" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-14: 0 contribution events</title>
   </rect>
-  <rect x="158" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="158" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-15: 0 contribution events</title>
   </rect>
-  <rect x="158" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="158" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-02-16: 5 contribution events</title>
   </rect>
-  <rect x="158" y="246" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="158" y="246" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-02-17: 9 contribution events</title>
   </rect>
-  <rect x="158" y="260" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="158" y="260" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-02-18: 6 contribution events</title>
   </rect>
-  <rect x="158" y="274" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="158" y="274" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-02-19: 13 contribution events</title>
   </rect>
-  <rect x="158" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="158" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-02-20: 4 contribution events</title>
   </rect>
-  <rect x="158" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="158" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-21: 0 contribution events</title>
   </rect>
-  <rect x="166" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="166" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-22: 0 contribution events</title>
   </rect>
-  <rect x="166" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="166" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-23: 0 contribution events</title>
   </rect>
-  <rect x="166" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="166" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-02-24: 0 contribution events</title>
   </rect>
-  <rect x="166" y="260" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="166" y="260" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-02-25: 8 contribution events</title>
   </rect>
-  <rect x="166" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="166" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-02-26: 5 contribution events</title>
   </rect>
-  <rect x="166" y="288" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="166" y="288" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-02-27: 18 contribution events</title>
   </rect>
-  <rect x="166" y="302" width="6" height="10" rx="2" fill="#ff85bd">
+  <rect x="166" y="302" width="6" height="10" rx="2" fill="#ff85bd" clip-path="url(#calendar-reveal)">
     <title>2026-02-28: 29 contribution events</title>
   </rect>
   <text x="174" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Mar</text>
-  <rect x="174" y="218" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="174" y="218" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-03-01: 2 contribution events</title>
   </rect>
-  <rect x="174" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="174" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-02: 0 contribution events</title>
   </rect>
-  <rect x="174" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="174" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-03: 0 contribution events</title>
   </rect>
-  <rect x="174" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="174" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-04: 0 contribution events</title>
   </rect>
-  <rect x="174" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="174" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-05: 0 contribution events</title>
   </rect>
-  <rect x="174" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="174" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-03-06: 3 contribution events</title>
   </rect>
-  <rect x="174" y="302" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="174" y="302" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-03-07: 1 contribution events</title>
   </rect>
-  <rect x="182" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="182" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-08: 0 contribution events</title>
   </rect>
-  <rect x="182" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="182" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-09: 0 contribution events</title>
   </rect>
-  <rect x="182" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="182" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-10: 0 contribution events</title>
   </rect>
-  <rect x="182" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="182" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-11: 0 contribution events</title>
   </rect>
-  <rect x="182" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="182" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-12: 0 contribution events</title>
   </rect>
-  <rect x="182" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="182" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-13: 0 contribution events</title>
   </rect>
-  <rect x="182" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="182" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-14: 0 contribution events</title>
   </rect>
-  <rect x="190" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="190" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-15: 0 contribution events</title>
   </rect>
-  <rect x="190" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="190" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-16: 0 contribution events</title>
   </rect>
-  <rect x="190" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="190" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-03-17: 3 contribution events</title>
   </rect>
-  <rect x="190" y="260" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="190" y="260" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-03-18: 9 contribution events</title>
   </rect>
-  <rect x="190" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="190" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-19: 0 contribution events</title>
   </rect>
-  <rect x="190" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="190" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-03-20: 5 contribution events</title>
   </rect>
-  <rect x="190" y="302" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="190" y="302" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-03-21: 3 contribution events</title>
   </rect>
-  <rect x="198" y="218" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="198" y="218" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-03-22: 1 contribution events</title>
   </rect>
-  <rect x="198" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="198" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-03-23: 2 contribution events</title>
   </rect>
-  <rect x="198" y="246" width="6" height="10" rx="2" fill="#ff85bd">
+  <rect x="198" y="246" width="6" height="10" rx="2" fill="#ff85bd" clip-path="url(#calendar-reveal)">
     <title>2026-03-24: 24 contribution events</title>
   </rect>
-  <rect x="198" y="260" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="198" y="260" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-03-25: 9 contribution events</title>
   </rect>
-  <rect x="198" y="274" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="198" y="274" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-03-26: 16 contribution events</title>
   </rect>
-  <rect x="198" y="288" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="198" y="288" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-03-27: 6 contribution events</title>
   </rect>
-  <rect x="198" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="198" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-28: 0 contribution events</title>
   </rect>
-  <rect x="206" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="206" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-03-29: 0 contribution events</title>
   </rect>
-  <rect x="206" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="206" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-03-30: 5 contribution events</title>
   </rect>
-  <rect x="206" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="206" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-03-31: 4 contribution events</title>
   </rect>
   <text x="206" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Apr</text>
-  <rect x="206" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="206" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-01: 0 contribution events</title>
   </rect>
-  <rect x="206" y="274" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="206" y="274" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-04-02: 10 contribution events</title>
   </rect>
-  <rect x="206" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="206" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-03: 0 contribution events</title>
   </rect>
-  <rect x="206" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="206" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-04: 0 contribution events</title>
   </rect>
-  <rect x="214" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="214" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-05: 0 contribution events</title>
   </rect>
-  <rect x="214" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="214" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-06: 0 contribution events</title>
   </rect>
-  <rect x="214" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="214" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-04-07: 3 contribution events</title>
   </rect>
-  <rect x="214" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="214" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-04-08: 1 contribution events</title>
   </rect>
-  <rect x="214" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="214" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-04-09: 4 contribution events</title>
   </rect>
-  <rect x="214" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="214" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-04-10: 3 contribution events</title>
   </rect>
-  <rect x="214" y="302" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="214" y="302" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-04-11: 5 contribution events</title>
   </rect>
-  <rect x="222" y="218" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="222" y="218" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-04-12: 6 contribution events</title>
   </rect>
-  <rect x="222" y="232" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="222" y="232" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-04-13: 15 contribution events</title>
   </rect>
-  <rect x="222" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="222" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-04-14: 1 contribution events</title>
   </rect>
-  <rect x="222" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="222" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-15: 0 contribution events</title>
   </rect>
-  <rect x="222" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="222" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-16: 0 contribution events</title>
   </rect>
-  <rect x="222" y="288" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="222" y="288" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-04-17: 9 contribution events</title>
   </rect>
-  <rect x="222" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="222" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-18: 0 contribution events</title>
   </rect>
-  <rect x="230" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="230" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-19: 0 contribution events</title>
   </rect>
-  <rect x="230" y="232" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="230" y="232" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-04-20: 16 contribution events</title>
   </rect>
-  <rect x="230" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="230" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-04-21: 5 contribution events</title>
   </rect>
-  <rect x="230" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="230" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-22: 0 contribution events</title>
   </rect>
-  <rect x="230" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="230" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-23: 0 contribution events</title>
   </rect>
-  <rect x="230" y="288" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="230" y="288" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-04-24: 12 contribution events</title>
   </rect>
-  <rect x="230" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="230" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-25: 0 contribution events</title>
   </rect>
-  <rect x="238" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="238" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-04-26: 0 contribution events</title>
   </rect>
-  <rect x="238" y="232" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="238" y="232" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-04-27: 6 contribution events</title>
   </rect>
-  <rect x="238" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="238" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-04-28: 2 contribution events</title>
   </rect>
-  <rect x="238" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="238" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-04-29: 3 contribution events</title>
   </rect>
-  <rect x="238" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="238" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-04-30: 5 contribution events</title>
   </rect>
   <text x="238" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">May</text>
-  <rect x="238" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="238" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-01: 5 contribution events</title>
   </rect>
-  <rect x="238" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="238" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-05-02: 0 contribution events</title>
   </rect>
-  <rect x="246" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="246" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-05-03: 0 contribution events</title>
   </rect>
-  <rect x="246" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="246" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-05-04: 0 contribution events</title>
   </rect>
-  <rect x="246" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="246" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-05: 1 contribution events</title>
   </rect>
-  <rect x="246" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="246" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-06: 2 contribution events</title>
   </rect>
-  <rect x="246" y="274" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="246" y="274" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-05-07: 11 contribution events</title>
   </rect>
-  <rect x="246" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="246" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-08: 3 contribution events</title>
   </rect>
-  <rect x="246" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="246" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-05-09: 0 contribution events</title>
   </rect>
-  <rect x="254" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="254" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-05-10: 0 contribution events</title>
   </rect>
-  <rect x="254" y="232" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="254" y="232" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-05-11: 12 contribution events</title>
   </rect>
-  <rect x="254" y="246" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="254" y="246" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-05-12: 8 contribution events</title>
   </rect>
-  <rect x="254" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="254" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-13: 1 contribution events</title>
   </rect>
-  <rect x="254" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="254" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-05-14: 0 contribution events</title>
   </rect>
-  <rect x="254" y="288" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="254" y="288" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-05-15: 8 contribution events</title>
   </rect>
-  <rect x="254" y="302" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="254" y="302" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-16: 3 contribution events</title>
   </rect>
-  <rect x="262" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="262" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-05-17: 0 contribution events</title>
   </rect>
-  <rect x="262" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="262" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-18: 1 contribution events</title>
   </rect>
-  <rect x="262" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="262" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-19: 2 contribution events</title>
   </rect>
-  <rect x="262" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="262" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-20: 3 contribution events</title>
   </rect>
-  <rect x="262" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="262" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-05-21: 0 contribution events</title>
   </rect>
-  <rect x="262" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="262" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-22: 5 contribution events</title>
   </rect>
-  <rect x="262" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="262" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-05-23: 0 contribution events</title>
   </rect>
-  <rect x="270" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="270" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-05-24: 0 contribution events</title>
   </rect>
-  <rect x="270" y="232" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="270" y="232" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-05-25: 12 contribution events</title>
   </rect>
-  <rect x="270" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="270" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-26: 1 contribution events</title>
   </rect>
-  <rect x="270" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="270" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-05-27: 4 contribution events</title>
   </rect>
-  <rect x="270" y="274" width="6" height="10" rx="2" fill="#ff85bd">
+  <rect x="270" y="274" width="6" height="10" rx="2" fill="#ff85bd" clip-path="url(#calendar-reveal)">
     <title>2026-05-28: 23 contribution events</title>
   </rect>
-  <rect x="270" y="288" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="270" y="288" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-05-29: 9 contribution events</title>
   </rect>
-  <rect x="270" y="302" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="270" y="302" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-05-30: 16 contribution events</title>
   </rect>
-  <rect x="278" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="278" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-05-31: 0 contribution events</title>
   </rect>
   <text x="278" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Jun</text>
-  <rect x="278" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="278" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-01: 2 contribution events</title>
   </rect>
-  <rect x="278" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="278" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-02: 2 contribution events</title>
   </rect>
-  <rect x="278" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="278" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-03: 2 contribution events</title>
   </rect>
-  <rect x="278" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="278" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-06-04: 0 contribution events</title>
   </rect>
-  <rect x="278" y="288" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="278" y="288" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-06-05: 7 contribution events</title>
   </rect>
-  <rect x="278" y="302" width="6" height="10" rx="2" fill="#ff85bd">
+  <rect x="278" y="302" width="6" height="10" rx="2" fill="#ff85bd" clip-path="url(#calendar-reveal)">
     <title>2026-06-06: 32 contribution events</title>
   </rect>
-  <rect x="286" y="218" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="286" y="218" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-07: 2 contribution events</title>
   </rect>
-  <rect x="286" y="232" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="286" y="232" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-06-08: 17 contribution events</title>
   </rect>
-  <rect x="286" y="246" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="286" y="246" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-06-09: 12 contribution events</title>
   </rect>
-  <rect x="286" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="286" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-10: 1 contribution events</title>
   </rect>
-  <rect x="286" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="286" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-11: 2 contribution events</title>
   </rect>
-  <rect x="286" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="286" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-12: 2 contribution events</title>
   </rect>
-  <rect x="286" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="286" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-06-13: 0 contribution events</title>
   </rect>
-  <rect x="294" y="218" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="294" y="218" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-14: 4 contribution events</title>
   </rect>
-  <rect x="294" y="232" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="294" y="232" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-06-15: 6 contribution events</title>
   </rect>
-  <rect x="294" y="246" width="6" height="10" rx="2" fill="#ff85bd">
+  <rect x="294" y="246" width="6" height="10" rx="2" fill="#ff85bd" clip-path="url(#calendar-reveal)">
     <title>2026-06-16: 26 contribution events</title>
   </rect>
-  <rect x="294" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="294" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-17: 5 contribution events</title>
   </rect>
-  <rect x="294" y="274" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="294" y="274" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-06-18: 11 contribution events</title>
   </rect>
-  <rect x="294" y="288" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="294" y="288" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-06-19: 12 contribution events</title>
   </rect>
-  <rect x="294" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="294" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-06-20: 0 contribution events</title>
   </rect>
-  <rect x="302" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="302" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-06-21: 0 contribution events</title>
   </rect>
-  <rect x="302" y="232" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="302" y="232" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-06-22: 11 contribution events</title>
   </rect>
-  <rect x="302" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="302" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-23: 2 contribution events</title>
   </rect>
-  <rect x="302" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="302" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-24: 2 contribution events</title>
   </rect>
-  <rect x="302" y="274" width="6" height="10" rx="2" fill="#ff85bd">
+  <rect x="302" y="274" width="6" height="10" rx="2" fill="#ff85bd" clip-path="url(#calendar-reveal)">
     <title>2026-06-25: 24 contribution events</title>
   </rect>
-  <rect x="302" y="288" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="302" y="288" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-06-26: 8 contribution events</title>
   </rect>
-  <rect x="302" y="302" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="302" y="302" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-27: 5 contribution events</title>
   </rect>
-  <rect x="310" y="218" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="310" y="218" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-06-28: 5 contribution events</title>
   </rect>
-  <rect x="310" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="310" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-06-29: 0 contribution events</title>
   </rect>
-  <rect x="310" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="310" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-06-30: 0 contribution events</title>
   </rect>
   <text x="310" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Jul</text>
-  <rect x="310" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="310" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-01: 0 contribution events</title>
   </rect>
-  <rect x="310" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="310" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-02: 0 contribution events</title>
   </rect>
-  <rect x="310" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="310" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-07-03: 3 contribution events</title>
   </rect>
-  <rect x="310" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="310" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-04: 0 contribution events</title>
   </rect>
-  <rect x="318" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="318" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-05: 0 contribution events</title>
   </rect>
-  <rect x="318" y="232" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="318" y="232" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-07-06: 11 contribution events</title>
   </rect>
-  <rect x="318" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="318" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-07: 0 contribution events</title>
   </rect>
-  <rect x="318" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="318" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-07-08: 5 contribution events</title>
   </rect>
-  <rect x="318" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="318" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-09: 0 contribution events</title>
   </rect>
-  <rect x="318" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="318" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-10: 0 contribution events</title>
   </rect>
-  <rect x="318" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="318" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-11: 0 contribution events</title>
   </rect>
-  <rect x="326" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="326" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-12: 0 contribution events</title>
   </rect>
-  <rect x="326" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="326" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-13: 0 contribution events</title>
   </rect>
-  <rect x="326" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="326" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-07-14: 2 contribution events</title>
   </rect>
-  <rect x="326" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="326" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-15: 0 contribution events</title>
   </rect>
-  <rect x="326" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="326" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-07-16: 2 contribution events</title>
   </rect>
-  <rect x="326" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="326" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-07-17: 4 contribution events</title>
   </rect>
-  <rect x="326" y="302" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="326" y="302" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-07-18: 5 contribution events</title>
   </rect>
-  <rect x="334" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="334" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-19: 0 contribution events</title>
   </rect>
-  <rect x="334" y="232" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="334" y="232" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-07-20: 7 contribution events</title>
   </rect>
-  <rect x="334" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="334" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-07-21: 2 contribution events</title>
   </rect>
-  <rect x="334" y="260" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="334" y="260" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-07-22: 6 contribution events</title>
   </rect>
-  <rect x="334" y="274" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="334" y="274" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-07-23: 6 contribution events</title>
   </rect>
-  <rect x="334" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="334" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-07-24: 2 contribution events</title>
   </rect>
-  <rect x="334" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="334" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-25: 0 contribution events</title>
   </rect>
-  <rect x="342" y="218" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="342" y="218" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-07-26: 1 contribution events</title>
   </rect>
-  <rect x="342" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="342" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-27: 0 contribution events</title>
   </rect>
-  <rect x="342" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="342" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-28: 0 contribution events</title>
   </rect>
-  <rect x="342" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="342" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-29: 0 contribution events</title>
   </rect>
-  <rect x="342" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="342" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-30: 0 contribution events</title>
   </rect>
-  <rect x="342" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="342" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-07-31: 0 contribution events</title>
   </rect>
   <text x="342" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Aug</text>
-  <rect x="342" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="342" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-01: 0 contribution events</title>
   </rect>
-  <rect x="350" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="350" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-02: 0 contribution events</title>
   </rect>
-  <rect x="350" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="350" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-08-03: 5 contribution events</title>
   </rect>
-  <rect x="350" y="246" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="350" y="246" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-08-04: 3 contribution events</title>
   </rect>
-  <rect x="350" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="350" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-05: 0 contribution events</title>
   </rect>
-  <rect x="350" y="274" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="350" y="274" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-08-06: 11 contribution events</title>
   </rect>
-  <rect x="350" y="288" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="350" y="288" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-08-07: 6 contribution events</title>
   </rect>
-  <rect x="350" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="350" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-08: 0 contribution events</title>
   </rect>
-  <rect x="358" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="358" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-09: 0 contribution events</title>
   </rect>
-  <rect x="358" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="358" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-10: 0 contribution events</title>
   </rect>
-  <rect x="358" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="358" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-11: 0 contribution events</title>
   </rect>
-  <rect x="358" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="358" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-12: 0 contribution events</title>
   </rect>
-  <rect x="358" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="358" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-13: 0 contribution events</title>
   </rect>
-  <rect x="358" y="288" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="358" y="288" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-08-14: 9 contribution events</title>
   </rect>
-  <rect x="358" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="358" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-15: 0 contribution events</title>
   </rect>
-  <rect x="366" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="366" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-16: 0 contribution events</title>
   </rect>
-  <rect x="366" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="366" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-08-17: 2 contribution events</title>
   </rect>
-  <rect x="366" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="366" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-18: 0 contribution events</title>
   </rect>
-  <rect x="366" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="366" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-19: 0 contribution events</title>
   </rect>
-  <rect x="366" y="274" width="6" height="10" rx="2" fill="#ff85bd">
+  <rect x="366" y="274" width="6" height="10" rx="2" fill="#ff85bd" clip-path="url(#calendar-reveal)">
     <title>2026-08-20: 22 contribution events</title>
   </rect>
-  <rect x="366" y="288" width="6" height="10" rx="2" fill="#292342">
+  <rect x="366" y="288" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-21: 0 contribution events</title>
   </rect>
-  <rect x="366" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="366" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-22: 0 contribution events</title>
   </rect>
-  <rect x="374" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="374" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-23: 0 contribution events</title>
   </rect>
-  <rect x="374" y="232" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="374" y="232" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-08-24: 10 contribution events</title>
   </rect>
-  <rect x="374" y="246" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="374" y="246" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-08-25: 7 contribution events</title>
   </rect>
-  <rect x="374" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="374" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-26: 0 contribution events</title>
   </rect>
-  <rect x="374" y="274" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="374" y="274" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-08-27: 7 contribution events</title>
   </rect>
-  <rect x="374" y="288" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="374" y="288" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-08-28: 18 contribution events</title>
   </rect>
-  <rect x="374" y="302" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="374" y="302" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-08-29: 4 contribution events</title>
   </rect>
-  <rect x="382" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="382" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-08-30: 0 contribution events</title>
   </rect>
-  <rect x="382" y="232" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="382" y="232" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-08-31: 16 contribution events</title>
   </rect>
   <text x="382" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Sep</text>
-  <rect x="382" y="246" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="382" y="246" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-09-01: 9 contribution events</title>
   </rect>
-  <rect x="382" y="260" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="382" y="260" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-09-02: 14 contribution events</title>
   </rect>
-  <rect x="382" y="274" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="382" y="274" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-09-03: 8 contribution events</title>
   </rect>
-  <rect x="382" y="288" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="382" y="288" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-09-04: 12 contribution events</title>
   </rect>
-  <rect x="382" y="302" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="382" y="302" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-09-05: 8 contribution events</title>
   </rect>
-  <rect x="390" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="390" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-06: 0 contribution events</title>
   </rect>
-  <rect x="390" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="390" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-09-07: 4 contribution events</title>
   </rect>
-  <rect x="390" y="246" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="390" y="246" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-09-08: 8 contribution events</title>
   </rect>
-  <rect x="390" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="390" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-09-09: 4 contribution events</title>
   </rect>
-  <rect x="390" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="390" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-10: 0 contribution events</title>
   </rect>
-  <rect x="390" y="288" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="390" y="288" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-09-11: 10 contribution events</title>
   </rect>
-  <rect x="390" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="390" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-12: 0 contribution events</title>
   </rect>
-  <rect x="398" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="398" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-13: 0 contribution events</title>
   </rect>
-  <rect x="398" y="232" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="398" y="232" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-09-14: 9 contribution events</title>
   </rect>
-  <rect x="398" y="246" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="398" y="246" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-09-15: 11 contribution events</title>
   </rect>
-  <rect x="398" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="398" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-09-16: 2 contribution events</title>
   </rect>
-  <rect x="398" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="398" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-17: 0 contribution events</title>
   </rect>
-  <rect x="398" y="288" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="398" y="288" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-09-18: 11 contribution events</title>
   </rect>
-  <rect x="398" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="398" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-19: 0 contribution events</title>
   </rect>
-  <rect x="406" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="406" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-20: 0 contribution events</title>
   </rect>
-  <rect x="406" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="406" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-21: 0 contribution events</title>
   </rect>
-  <rect x="406" y="246" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="406" y="246" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-09-22: 6 contribution events</title>
   </rect>
-  <rect x="406" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="406" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-23: 0 contribution events</title>
   </rect>
-  <rect x="406" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="406" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-09-24: 2 contribution events</title>
   </rect>
-  <rect x="406" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="406" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-09-25: 2 contribution events</title>
   </rect>
-  <rect x="406" y="302" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="406" y="302" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-09-26: 4 contribution events</title>
   </rect>
-  <rect x="414" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="414" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-27: 0 contribution events</title>
   </rect>
-  <rect x="414" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="414" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-28: 0 contribution events</title>
   </rect>
-  <rect x="414" y="246" width="6" height="10" rx="2" fill="#292342">
+  <rect x="414" y="246" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-29: 0 contribution events</title>
   </rect>
-  <rect x="414" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="414" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-09-30: 0 contribution events</title>
   </rect>
   <text x="414" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Oct</text>
-  <rect x="414" y="274" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="414" y="274" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-10-01: 11 contribution events</title>
   </rect>
-  <rect x="414" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="414" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-10-02: 2 contribution events</title>
   </rect>
-  <rect x="414" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="414" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-10-03: 0 contribution events</title>
   </rect>
-  <rect x="422" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="422" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-10-04: 0 contribution events</title>
   </rect>
-  <rect x="422" y="232" width="6" height="10" rx="2" fill="#ff85bd">
+  <rect x="422" y="232" width="6" height="10" rx="2" fill="#ff85bd" clip-path="url(#calendar-reveal)">
     <title>2026-10-05: 26 contribution events</title>
   </rect>
-  <rect x="422" y="246" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="422" y="246" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-10-06: 15 contribution events</title>
   </rect>
-  <rect x="422" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="422" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-10-07: 0 contribution events</title>
   </rect>
-  <rect x="422" y="274" width="6" height="10" rx="2" fill="#292342">
+  <rect x="422" y="274" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-10-08: 0 contribution events</title>
   </rect>
-  <rect x="422" y="288" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="422" y="288" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-10-09: 9 contribution events</title>
   </rect>
-  <rect x="422" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="422" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-10-10: 0 contribution events</title>
   </rect>
-  <rect x="430" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="430" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-10-11: 0 contribution events</title>
   </rect>
-  <rect x="430" y="232" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="430" y="232" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-10-12: 17 contribution events</title>
   </rect>
-  <rect x="430" y="246" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="430" y="246" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-10-13: 11 contribution events</title>
   </rect>
-  <rect x="430" y="260" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="430" y="260" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-10-14: 5 contribution events</title>
   </rect>
-  <rect x="430" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="430" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-10-15: 3 contribution events</title>
   </rect>
-  <rect x="430" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="430" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-10-16: 1 contribution events</title>
   </rect>
-  <rect x="430" y="302" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="430" y="302" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-10-17: 9 contribution events</title>
   </rect>
-  <rect x="438" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="438" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-10-18: 0 contribution events</title>
   </rect>
-  <rect x="438" y="232" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="438" y="232" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-10-19: 12 contribution events</title>
   </rect>
-  <rect x="438" y="246" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="438" y="246" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-10-20: 13 contribution events</title>
   </rect>
-  <rect x="438" y="260" width="6" height="10" rx="2" fill="#292342">
+  <rect x="438" y="260" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-10-21: 0 contribution events</title>
   </rect>
-  <rect x="438" y="274" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="438" y="274" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-10-22: 3 contribution events</title>
   </rect>
-  <rect x="438" y="288" width="6" height="10" rx="2" fill="#bd5b9b">
+  <rect x="438" y="288" width="6" height="10" rx="2" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
     <title>2026-10-23: 11 contribution events</title>
   </rect>
-  <rect x="438" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="438" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-10-24: 0 contribution events</title>
   </rect>
-  <rect x="446" y="218" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="446" y="218" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-10-25: 9 contribution events</title>
   </rect>
-  <rect x="446" y="232" width="6" height="10" rx="2" fill="#292342">
+  <rect x="446" y="232" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-10-26: 0 contribution events</title>
   </rect>
-  <rect x="446" y="246" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="446" y="246" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-10-27: 7 contribution events</title>
   </rect>
-  <rect x="446" y="260" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="446" y="260" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-10-28: 8 contribution events</title>
   </rect>
-  <rect x="446" y="274" width="6" height="10" rx="2" fill="#87447c">
+  <rect x="446" y="274" width="6" height="10" rx="2" fill="#87447c" clip-path="url(#calendar-reveal)">
     <title>2026-10-29: 6 contribution events</title>
   </rect>
-  <rect x="446" y="288" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="446" y="288" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-10-30: 3 contribution events</title>
   </rect>
-  <rect x="446" y="302" width="6" height="10" rx="2" fill="#292342">
+  <rect x="446" y="302" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-10-31: 0 contribution events</title>
   </rect>
   <text x="454" y="206" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Nov</text>
-  <rect x="454" y="218" width="6" height="10" rx="2" fill="#292342">
+  <rect x="454" y="218" width="6" height="10" rx="2" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2026-11-01: 0 contribution events</title>
   </rect>
-  <rect x="454" y="232" width="6" height="10" rx="2" fill="#53335d">
+  <rect x="454" y="232" width="6" height="10" rx="2" fill="#53335d" clip-path="url(#calendar-reveal)">
     <title>2026-11-02: 5 contribution events</title>
   </rect>
   <text x="8" y="243" font-size="8" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Mon</text>

@@ -139,7 +139,9 @@ def metric(
     accent: str = PINK,
     note: str = "",
     width: int = 362,
+    delay: float = 0,
 ) -> None:
+    first = len(canvas.root)
     canvas.rect(x, 68, width, 111, PANEL, radius=12, stroke=BORDER)
     canvas.text(
         x + 22,
@@ -154,6 +156,8 @@ def metric(
     if note:
         canvas.text(x + 22, 164, note, 11, MUTED)
 
+    canvas.entrance(list(canvas.root)[first:], delay=delay)
+
 
 def render_github(stats: GitHubStats, today: date, compact: bool = False) -> Svg:
     width = 480 if compact else WIDTH
@@ -167,8 +171,8 @@ def render_github(stats: GitHubStats, today: date, compact: bool = False) -> Svg
     if compact:
         canvas.label(16, 37, "GITHUB / PUBLIC ACTIVITY", CYAN)
         metric(canvas, 16, stats.public_repositories, "Public repos", CYAN, width=132)
-        metric(canvas, 174, stats.stars, "Stars earned", PINK, width=132)
-        metric(canvas, 332, stats.followers, "Followers", WHITE, width=132)
+        metric(canvas, 174, stats.stars, "Stars earned", PINK, width=132, delay=0.08)
+        metric(canvas, 332, stats.followers, "Followers", WHITE, width=132, delay=0.16)
         canvas.text(16, 210, "Stars exclude forks · Public data", 10, MUTED)
         canvas.text(464, 210, f"{today} UTC", 10, MUTED, text_anchor="end")
         return canvas
@@ -182,8 +186,9 @@ def render_github(stats: GitHubStats, today: date, compact: bool = False) -> Svg
         "Stars earned",
         PINK,
         "On owned, non-fork public repositories",
+        delay=0.08,
     )
-    metric(canvas, 806, stats.followers, "Followers", WHITE)
+    metric(canvas, 806, stats.followers, "Followers", WHITE, delay=0.16)
     canvas.text(32, 210, "Public API data · Rebuilt daily", 12, MUTED, mono=True)
     canvas.text(
         1166, 210, f"UPDATED {today} UTC", 12, MUTED, mono=True, text_anchor="end"
@@ -204,8 +209,24 @@ def render_gitlab(calendar: ContributionCalendar, compact: bool = False) -> Svg:
     if compact:
         canvas.label(16, 37, "GITLAB / CONTRIBUTIONS")
         metric(canvas, 16, calendar.total, "Events", width=132)
-        metric(canvas, 174, calendar.active_days, "Active days", CYAN, width=132)
-        metric(canvas, 332, calendar.longest_streak, "Best streak", WHITE, width=132)
+        metric(
+            canvas,
+            174,
+            calendar.active_days,
+            "Active days",
+            CYAN,
+            width=132,
+            delay=0.08,
+        )
+        metric(
+            canvas,
+            332,
+            calendar.longest_streak,
+            "Best streak",
+            WHITE,
+            width=132,
+            delay=0.16,
+        )
     else:
         canvas.label(32, 37, "GITLAB / CONTRIBUTIONS")
         canvas.text(
@@ -218,7 +239,7 @@ def render_gitlab(calendar: ContributionCalendar, compact: bool = False) -> Svg:
             text_anchor="end",
         )
         metric(canvas, 32, calendar.total, "Contribution events")
-        metric(canvas, 419, calendar.active_days, "Active days", CYAN)
+        metric(canvas, 419, calendar.active_days, "Active days", CYAN, delay=0.08)
         metric(
             canvas,
             806,
@@ -226,7 +247,14 @@ def render_gitlab(calendar: ContributionCalendar, compact: bool = False) -> Svg:
             "Longest streak · days",
             WHITE,
             "Within the displayed window",
+            delay=0.16,
         )
+    reveal = canvas.horizontal_reveal(
+        38 if compact else 85,
+        218,
+        424 if compact else 1060,
+        98 if compact else 126,
+    )
     grid_start = start - timedelta(days=(start.weekday() + 1) % 7)
     previous_month = None
     for day, count in zip(calendar.days, calendar.counts, strict=True):
@@ -248,6 +276,7 @@ def render_gitlab(calendar: ContributionCalendar, compact: bool = False) -> Svg:
             HEATMAP_COLORS[level],
             radius=2 if compact else 3,
         )
+        cell.set("clip-path", reveal)
         # A native tooltip preserves per-day detail without scripts or foreignObject.
         SubElement(cell, "title").text = f"{day}: {count} contribution events"
     for row, name in ((1, "Mon"), (3, "Wed"), (5, "Fri")):

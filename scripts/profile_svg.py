@@ -148,6 +148,67 @@ class Svg:
             )
         return f"url(#{name})"
 
+    def entrance(
+        self,
+        nodes: list[ET.Element],
+        delay: float = 0,
+        lift: int = 6,
+        parent: ET.Element | None = None,
+    ) -> None:
+        """Fade existing elements in once, with a fully visible static fallback."""
+        if self.root.find("style[@id='entrance-style']") is None:
+            self.element("style", id="entrance-style").text = (
+                ".entrance{animation:arrive .55s cubic-bezier(.2,.7,.2,1) both;"
+                "animation-delay:var(--delay,0s)}"
+                "@keyframes arrive{from{opacity:0;transform:translateY(var(--lift,6px))}"
+                "to{opacity:1;transform:translateY(0)}}"
+                "@media(prefers-reduced-motion:reduce){.entrance{animation:none}}"
+            )
+        container = self.root if parent is None else parent
+        group = ET.SubElement(
+            container,
+            "g",
+            {
+                "class": "entrance",
+                "style": f"--delay:{delay:g}s;--lift:{lift}px",
+            },
+        )
+        for node in nodes:
+            container.remove(node)
+            group.append(node)
+
+    def horizontal_reveal(self, x: int, y: int, width: int, height: int) -> str:
+        """Return a clip reference that reveals a calendar once, without scaling cells."""
+        definitions = self.root.find("defs")
+        if definitions is None:
+            definitions = ET.SubElement(self.root, "defs")
+        clip = ET.SubElement(
+            definitions,
+            "clipPath",
+            {
+                "id": "calendar-reveal",
+                "clipPathUnits": "userSpaceOnUse",
+            },
+        )
+        ET.SubElement(
+            clip,
+            "rect",
+            {
+                "x": str(x),
+                "y": str(y),
+                "width": str(width),
+                "height": str(height),
+                "class": "calendar-window",
+                "style": f"--reveal-width:{width}px",
+            },
+        )
+        self.element("style").text = (
+            ".calendar-window{animation:unveil 1.05s steps(53,end) .15s both}"
+            "@keyframes unveil{from{width:0}to{width:var(--reveal-width)}}"
+            "@media(prefers-reduced-motion:reduce){.calendar-window{animation:none}}"
+        )
+        return "url(#calendar-reveal)"
+
     def save(self, destination: Path) -> None:
         destination.parent.mkdir(parents=True, exist_ok=True)
         ET.indent(self.root, space="  ")
