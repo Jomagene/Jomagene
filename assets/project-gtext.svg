@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="340" viewBox="0 0 580 340" role="img" aria-labelledby="title description">
+  <title id="title">GText AI</title>
+  <desc id="description">Illustrated project card. BROWSER AI / WEB APP. Next.js · JavaScript · Chrome AI.</desc>
+  <rect x="1" y="1" width="578" height="338" rx="20" fill="#111125" stroke="#393153" />
+  <text x="26" y="33" font-size="12" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">03 / BROWSER AI / WEB APP</text>
+  <text x="548" y="34" font-size="25" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="end">↗</text>
+  <rect x="26" y="55" width="528" height="176" rx="12" fill="#211d38" />
+  <rect x="46" y="75" width="58" height="26" rx="6" fill="#7de0fa" />
+  <text x="59" y="93" font-size="16" fill="#111125" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif">Aa</text>
+  <text x="119" y="94" font-size="15" fill="#f6f2ff" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif">Chrome AI / Text tools</text>
+  <rect x="46" y="114" width="351" height="37" rx="8" fill="#32304e" />
+  <text x="60" y="138" font-size="14" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">Detect. Summarize. Translate.</text>
+  <rect x="149" y="164" width="380" height="40" rx="8" fill="#253b53" />
+  <text x="167" y="189" font-size="14" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">Language detected · Summary ready</text>
+  <text x="26" y="272" font-size="27" fill="#f6f2ff" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-0.7">GText AI</text>
+  <text x="26" y="308" font-size="13" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Next.js · JavaScript · Chrome AI</text>
+</svg>

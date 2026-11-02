@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Joël Magene — Web developer and Tiki contributor</title>
+  <desc id="description">Also known as SemJo. PHP, JavaScript, Tiki Wiki CMS Groupware and QA. Civil engineer turned developer. HNG12 finalist. Based in Goma / Gisenyi.</desc>
+  <rect x="1" y="1" width="1198" height="358" rx="20" fill="#111125" stroke="#393153" />
+  <defs>
+    <linearGradient id="hero-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8e5cff" />
+      <stop offset="50%" stop-color="#d95ca5" />
+      <stop offset="100%" stop-color="#54b8ee" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="358" rx="20" fill="url(#hero-glow)" fill-opacity="0.13" />
+  <circle cx="1048" cy="95" r="132" fill="#9b70ff" opacity="0.07" class="signal" />
+  <circle cx="1105" cy="120" r="172" fill="none" stroke="#b797ff" stroke-opacity="0.16" />
+  <style>.signal{animation:breath 5s ease-in-out infinite}@keyframes breath{0%,100%{opacity:.05}50%{opacity:.18}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}</style>
+  <text x="42" y="47" font-size="12" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">WEB DEVELOPER / TIKI CONTRIBUTOR</text>
+  <text x="38" y="135" font-size="70" fill="#f6f2ff" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-3">Joël Magene</text>
+  <text x="43" y="172" font-size="20" fill="#ff85bd" font-weight="400" font-family="DejaVu Sans Mono,monospace">aka SemJo</text>
+  <text x="43" y="221" font-size="26" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">PHP. JavaScript. Open source. QA.</text>
+  <text x="43" y="258" font-size="17" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">I build web applications and fix the details that get in the way.</text>
+  <line x1="43" y1="285" x2="741" y2="285" stroke="#62507f" stroke-opacity="0.5" />
+  <text x="43" y="312" font-size="13" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Goma / Gisenyi</text>
+  <text x="264" y="312" font-size="13" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans Mono,monospace">HNG12 finalist · top 432 / 11,285</text>
+  <rect x="825" y="73" width="324" height="206" rx="16" fill="#1a1833" stroke="#776291" />
+  <circle cx="846" cy="94" r="4" fill="#ff85bd" />
+  <circle cx="861" cy="94" r="4" fill="#ffb86b" />
+  <circle cx="876" cy="94" r="4" fill="#7de0fa" />
+  <text x="1012" y="99" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace" text-anchor="middle">THE DAY-TO-DAY</text>
+  <rect x="846" y="119" width="75" height="43" rx="10" fill="#2a2344" stroke="#c8b2ff" stroke-opacity="0.6" />
+  <text x="883" y="147" font-size="19" fill="#c8b2ff" font-weight="700" font-family="DejaVu Sans Mono,monospace" text-anchor="middle">PHP</text>
+  <rect x="941" y="119" width="75" height="43" rx="10" fill="#2a2344" stroke="#ffb86b" stroke-opacity="0.6" />
+  <text x="978" y="147" font-size="19" fill="#ffb86b" font-weight="700" font-family="DejaVu Sans Mono,monospace" text-anchor="middle">JS</text>
+  <rect x="1036" y="119" width="75" height="43" rx="10" fill="#2a2344" stroke="#7de0fa" stroke-opacity="0.6" />
+  <text x="1073" y="147" font-size="19" fill="#7de0fa" font-weight="700" font-family="DejaVu Sans Mono,monospace" text-anchor="middle">QA</text>
+  <circle cx="851" cy="185" r="4" fill="#ff85bd" />
+  <text x="866" y="190" font-size="14" fill="#f6f2ff" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">Reproduce the issue</text>
+  <circle cx="851" cy="214" r="4" fill="#ff85bd" />
+  <text x="866" y="219" font-size="14" fill="#f6f2ff" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">Fix it and add tests</text>
+  <circle cx="851" cy="243" r="4" fill="#ff85bd" />
+  <text x="866" y="248" font-size="14" fill="#f6f2ff" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">Check it in the browser</text>
+  <path d="M 1 330 C 220 297 380 371 643 337 S 980 311 1199 327 L 1199 340 Q 1199 359 1180 359 H 20 Q 1 359 1 340 Z" fill="url(#hero-glow)" opacity="0.3" />
+</svg>

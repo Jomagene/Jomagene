@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="260" viewBox="0 0 480 260" role="img" aria-labelledby="title description">
+  <title id="title">Joël Magene — Web developer and Tiki contributor</title>
+  <desc id="description">Joël Magene — Web developer and Tiki contributor</desc>
+  <rect x="1" y="1" width="478" height="258" rx="20" fill="#111125" stroke="#393153" />
+  <defs>
+    <linearGradient id="hero-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8e5cff" />
+      <stop offset="50%" stop-color="#d95ca5" />
+      <stop offset="100%" stop-color="#54b8ee" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="478" height="258" rx="20" fill="url(#hero-glow)" fill-opacity="0.15" />
+  <text x="26" y="36" font-size="12" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">WEB DEVELOPER / TIKI CONTRIBUTOR</text>
+  <text x="24" y="102" font-size="47" fill="#f6f2ff" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-2">Joël Magene</text>
+  <text x="28" y="133" font-size="17" fill="#ff85bd" font-weight="400" font-family="DejaVu Sans Mono,monospace">aka SemJo</text>
+  <text x="28" y="174" font-size="18" fill="#f6f2ff" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">PHP · JavaScript · Open source · QA</text>
+  <text x="28" y="211" font-size="13" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Goma / Gisenyi</text>
+  <text x="28" y="238" font-size="13" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans Mono,monospace">HNG12 finalist · top 432 / 11,285</text>
+</svg>

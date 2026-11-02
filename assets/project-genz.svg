@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="340" viewBox="0 0 580 340" role="img" aria-labelledby="title description">
+  <title id="title">Genz.ad</title>
+  <desc id="description">Illustrated project card. TEAM PROJECT / AI. Next.js · TypeScript · Tailwind.</desc>
+  <rect x="1" y="1" width="578" height="338" rx="20" fill="#111125" stroke="#393153" />
+  <text x="26" y="33" font-size="12" fill="#ff85bd" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">02 / TEAM PROJECT / AI</text>
+  <text x="548" y="34" font-size="25" fill="#ff85bd" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="end">↗</text>
+  <rect x="26" y="55" width="528" height="176" rx="12" fill="#211d38" />
+  <rect x="43" y="72" width="148" height="142" rx="8" fill="#2c2345" />
+  <text x="55" y="96" font-size="12" fill="#ff85bd" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">CREATE</text>
+  <rect x="55" y="112" width="108" height="10" rx="3" fill="#554164" />
+  <rect x="55" y="133" width="92" height="10" rx="3" fill="#554164" />
+  <rect x="55" y="154" width="108" height="10" rx="3" fill="#554164" />
+  <rect x="55" y="181" width="102" height="20" rx="5" fill="#ff85bd" />
+  <text x="68" y="195" font-size="10" fill="#111125" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif">Generate</text>
+  <rect x="207" y="72" width="149" height="142" rx="8" fill="#302545" />
+  <circle cx="282" cy="130" r="36" fill="none" stroke="#ff85bd" stroke-width="12" />
+  <line x1="229" y1="184" x2="318" y2="184" stroke="#ff85bd" stroke-width="5" />
+  <line x1="229" y1="197" x2="294" y2="197" stroke="#7a668c" stroke-width="4" />
+  <rect x="373" y="72" width="149" height="142" rx="8" fill="#302545" />
+  <circle cx="448" cy="130" r="36" fill="none" stroke="#7de0fa" stroke-width="12" />
+  <line x1="395" y1="184" x2="484" y2="184" stroke="#7de0fa" stroke-width="5" />
+  <line x1="395" y1="197" x2="460" y2="197" stroke="#7a668c" stroke-width="4" />
+  <text x="26" y="272" font-size="27" fill="#f6f2ff" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-0.7">Genz.ad</text>
+  <text x="26" y="308" font-size="13" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Next.js · TypeScript · Tailwind</text>
+</svg>

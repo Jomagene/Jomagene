@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-labelledby="title description">
+  <title id="title">Have a project or a bug worth looking at? Get in touch.</title>
+  <desc id="description">Have a project or a bug worth looking at? Get in touch.</desc>
+  <rect x="1" y="1" width="1198" height="138" rx="20" fill="#111125" stroke="#393153" />
+  <defs>
+    <linearGradient id="contact-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9268ef" />
+      <stop offset="50%" stop-color="#e878b1" />
+      <stop offset="100%" stop-color="#73d1ed" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="138" rx="20" fill="url(#contact-glow)" fill-opacity="0.12" />
+  <text x="32" y="53" font-size="31" fill="#f6f2ff" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">Have a project or a bug worth looking at?</text>
+  <text x="34" y="100" font-size="20" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans Mono,monospace">semjomagene@gmail.com</text>
+  <circle cx="1136" cy="70" r="28" fill="#ad83eb" />
+  <text x="1122" y="81" font-size="32" fill="#f6f2ff" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif">↗</text>
+</svg>

@@ -1,0 +1,1140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="403" viewBox="0 0 1200 403" role="img" aria-labelledby="title description">
+  <title id="title">GitLab contribution calendar</title>
+  <desc id="description">1254 contribution events over 365 days; 179 active days; longest streak 8 days. 2025-11-03 through 2026-11-02. Counts reflect the publicly visible GitLab calendar, including pushes, merge requests and comments.</desc>
+  <rect x="1" y="1" width="1198" height="401" rx="20" fill="#111125" stroke="#393153" />
+  <text x="32" y="37" font-size="12" fill="#ff85bd" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">GITLAB / CONTRIBUTIONS</text>
+  <text x="1166" y="37" font-size="13" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace" text-anchor="end">@Jomagene · 365 DAYS</text>
+  <rect x="32" y="68" width="362" height="111" rx="12" fill="#1b1a34" stroke="#393153" />
+  <text x="54" y="113" font-size="36" fill="#ff85bd" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">1,254</text>
+  <text x="54" y="142" font-size="15" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Contribution events</text>
+  <rect x="419" y="68" width="362" height="111" rx="12" fill="#1b1a34" stroke="#393153" />
+  <text x="441" y="113" font-size="36" fill="#7de0fa" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">179</text>
+  <text x="441" y="142" font-size="15" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Active days</text>
+  <rect x="806" y="68" width="362" height="111" rx="12" fill="#1b1a34" stroke="#393153" />
+  <text x="828" y="113" font-size="36" fill="#f6f2ff" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">8</text>
+  <text x="828" y="142" font-size="15" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Longest streak · days</text>
+  <text x="828" y="164" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">Within the displayed window</text>
+  <text x="85" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Nov</text>
+  <rect x="85" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-03: 0 contribution events</title>
+  </rect>
+  <rect x="85" y="254" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2025-11-04: 16 contribution events</title>
+  </rect>
+  <rect x="85" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-05: 0 contribution events</title>
+  </rect>
+  <rect x="85" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-11-06: 3 contribution events</title>
+  </rect>
+  <rect x="85" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-07: 0 contribution events</title>
+  </rect>
+  <rect x="85" y="326" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-11-08: 4 contribution events</title>
+  </rect>
+  <rect x="105" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-09: 0 contribution events</title>
+  </rect>
+  <rect x="105" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-11-10: 4 contribution events</title>
+  </rect>
+  <rect x="105" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-11: 0 contribution events</title>
+  </rect>
+  <rect x="105" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-12: 0 contribution events</title>
+  </rect>
+  <rect x="105" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-11-13: 3 contribution events</title>
+  </rect>
+  <rect x="105" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-11-14: 1 contribution events</title>
+  </rect>
+  <rect x="105" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-15: 0 contribution events</title>
+  </rect>
+  <rect x="125" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-16: 0 contribution events</title>
+  </rect>
+  <rect x="125" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-17: 0 contribution events</title>
+  </rect>
+  <rect x="125" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-18: 0 contribution events</title>
+  </rect>
+  <rect x="125" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-19: 0 contribution events</title>
+  </rect>
+  <rect x="125" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-11-20: 1 contribution events</title>
+  </rect>
+  <rect x="125" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-21: 0 contribution events</title>
+  </rect>
+  <rect x="125" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-22: 0 contribution events</title>
+  </rect>
+  <rect x="145" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-23: 0 contribution events</title>
+  </rect>
+  <rect x="145" y="236" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2025-11-24: 11 contribution events</title>
+  </rect>
+  <rect x="145" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-11-25: 2 contribution events</title>
+  </rect>
+  <rect x="145" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-26: 0 contribution events</title>
+  </rect>
+  <rect x="145" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-27: 0 contribution events</title>
+  </rect>
+  <rect x="145" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-11-28: 2 contribution events</title>
+  </rect>
+  <rect x="145" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-29: 0 contribution events</title>
+  </rect>
+  <rect x="165" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-11-30: 0 contribution events</title>
+  </rect>
+  <text x="165" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Dec</text>
+  <rect x="165" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-12-01: 1 contribution events</title>
+  </rect>
+  <rect x="165" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-02: 0 contribution events</title>
+  </rect>
+  <rect x="165" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-03: 0 contribution events</title>
+  </rect>
+  <rect x="165" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-04: 0 contribution events</title>
+  </rect>
+  <rect x="165" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-12-05: 1 contribution events</title>
+  </rect>
+  <rect x="165" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-06: 0 contribution events</title>
+  </rect>
+  <rect x="185" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-07: 0 contribution events</title>
+  </rect>
+  <rect x="185" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-08: 0 contribution events</title>
+  </rect>
+  <rect x="185" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-09: 0 contribution events</title>
+  </rect>
+  <rect x="185" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-10: 0 contribution events</title>
+  </rect>
+  <rect x="185" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-11: 0 contribution events</title>
+  </rect>
+  <rect x="185" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-12-12: 1 contribution events</title>
+  </rect>
+  <rect x="185" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-13: 0 contribution events</title>
+  </rect>
+  <rect x="205" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-14: 0 contribution events</title>
+  </rect>
+  <rect x="205" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-15: 0 contribution events</title>
+  </rect>
+  <rect x="205" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-16: 0 contribution events</title>
+  </rect>
+  <rect x="205" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-17: 0 contribution events</title>
+  </rect>
+  <rect x="205" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-12-18: 2 contribution events</title>
+  </rect>
+  <rect x="205" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-19: 0 contribution events</title>
+  </rect>
+  <rect x="205" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-20: 0 contribution events</title>
+  </rect>
+  <rect x="225" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-21: 0 contribution events</title>
+  </rect>
+  <rect x="225" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-22: 0 contribution events</title>
+  </rect>
+  <rect x="225" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-23: 0 contribution events</title>
+  </rect>
+  <rect x="225" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-24: 0 contribution events</title>
+  </rect>
+  <rect x="225" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-25: 0 contribution events</title>
+  </rect>
+  <rect x="225" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-12-26: 5 contribution events</title>
+  </rect>
+  <rect x="225" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-27: 0 contribution events</title>
+  </rect>
+  <rect x="245" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2025-12-28: 0 contribution events</title>
+  </rect>
+  <rect x="245" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-12-29: 3 contribution events</title>
+  </rect>
+  <rect x="245" y="254" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2025-12-30: 11 contribution events</title>
+  </rect>
+  <rect x="245" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2025-12-31: 1 contribution events</title>
+  </rect>
+  <text x="245" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Jan</text>
+  <rect x="245" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-01: 0 contribution events</title>
+  </rect>
+  <rect x="245" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-01-02: 3 contribution events</title>
+  </rect>
+  <rect x="245" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-03: 0 contribution events</title>
+  </rect>
+  <rect x="265" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-04: 0 contribution events</title>
+  </rect>
+  <rect x="265" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-05: 0 contribution events</title>
+  </rect>
+  <rect x="265" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-06: 0 contribution events</title>
+  </rect>
+  <rect x="265" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-07: 0 contribution events</title>
+  </rect>
+  <rect x="265" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-01-08: 2 contribution events</title>
+  </rect>
+  <rect x="265" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-09: 0 contribution events</title>
+  </rect>
+  <rect x="265" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-10: 0 contribution events</title>
+  </rect>
+  <rect x="285" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-11: 0 contribution events</title>
+  </rect>
+  <rect x="285" y="236" width="15" height="13" rx="3" fill="#ff85bd">
+    <title>2026-01-12: 22 contribution events</title>
+  </rect>
+  <rect x="285" y="254" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-01-13: 11 contribution events</title>
+  </rect>
+  <rect x="285" y="272" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-01-14: 8 contribution events</title>
+  </rect>
+  <rect x="285" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-01-15: 1 contribution events</title>
+  </rect>
+  <rect x="285" y="308" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-01-16: 10 contribution events</title>
+  </rect>
+  <rect x="285" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-17: 0 contribution events</title>
+  </rect>
+  <rect x="305" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-18: 0 contribution events</title>
+  </rect>
+  <rect x="305" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-19: 0 contribution events</title>
+  </rect>
+  <rect x="305" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-20: 0 contribution events</title>
+  </rect>
+  <rect x="305" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-01-21: 5 contribution events</title>
+  </rect>
+  <rect x="305" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-22: 0 contribution events</title>
+  </rect>
+  <rect x="305" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-23: 0 contribution events</title>
+  </rect>
+  <rect x="305" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-24: 0 contribution events</title>
+  </rect>
+  <rect x="325" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-25: 0 contribution events</title>
+  </rect>
+  <rect x="325" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-26: 0 contribution events</title>
+  </rect>
+  <rect x="325" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-27: 0 contribution events</title>
+  </rect>
+  <rect x="325" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-28: 0 contribution events</title>
+  </rect>
+  <rect x="325" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-29: 0 contribution events</title>
+  </rect>
+  <rect x="325" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-30: 0 contribution events</title>
+  </rect>
+  <rect x="325" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-01-31: 0 contribution events</title>
+  </rect>
+  <text x="345" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Feb</text>
+  <rect x="345" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-01: 0 contribution events</title>
+  </rect>
+  <rect x="345" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-02: 0 contribution events</title>
+  </rect>
+  <rect x="345" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-02-03: 2 contribution events</title>
+  </rect>
+  <rect x="345" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-04: 0 contribution events</title>
+  </rect>
+  <rect x="345" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-05: 0 contribution events</title>
+  </rect>
+  <rect x="345" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-02-06: 1 contribution events</title>
+  </rect>
+  <rect x="345" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-07: 0 contribution events</title>
+  </rect>
+  <rect x="365" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-08: 0 contribution events</title>
+  </rect>
+  <rect x="365" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-02-09: 2 contribution events</title>
+  </rect>
+  <rect x="365" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-02-10: 1 contribution events</title>
+  </rect>
+  <rect x="365" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-11: 0 contribution events</title>
+  </rect>
+  <rect x="365" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-12: 0 contribution events</title>
+  </rect>
+  <rect x="365" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-13: 0 contribution events</title>
+  </rect>
+  <rect x="365" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-14: 0 contribution events</title>
+  </rect>
+  <rect x="385" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-15: 0 contribution events</title>
+  </rect>
+  <rect x="385" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-02-16: 5 contribution events</title>
+  </rect>
+  <rect x="385" y="254" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-02-17: 9 contribution events</title>
+  </rect>
+  <rect x="385" y="272" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-02-18: 6 contribution events</title>
+  </rect>
+  <rect x="385" y="290" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-02-19: 13 contribution events</title>
+  </rect>
+  <rect x="385" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-02-20: 4 contribution events</title>
+  </rect>
+  <rect x="385" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-21: 0 contribution events</title>
+  </rect>
+  <rect x="405" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-22: 0 contribution events</title>
+  </rect>
+  <rect x="405" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-23: 0 contribution events</title>
+  </rect>
+  <rect x="405" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-02-24: 0 contribution events</title>
+  </rect>
+  <rect x="405" y="272" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-02-25: 8 contribution events</title>
+  </rect>
+  <rect x="405" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-02-26: 5 contribution events</title>
+  </rect>
+  <rect x="405" y="308" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-02-27: 18 contribution events</title>
+  </rect>
+  <rect x="405" y="326" width="15" height="13" rx="3" fill="#ff85bd">
+    <title>2026-02-28: 29 contribution events</title>
+  </rect>
+  <text x="425" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Mar</text>
+  <rect x="425" y="218" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-03-01: 2 contribution events</title>
+  </rect>
+  <rect x="425" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-02: 0 contribution events</title>
+  </rect>
+  <rect x="425" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-03: 0 contribution events</title>
+  </rect>
+  <rect x="425" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-04: 0 contribution events</title>
+  </rect>
+  <rect x="425" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-05: 0 contribution events</title>
+  </rect>
+  <rect x="425" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-03-06: 3 contribution events</title>
+  </rect>
+  <rect x="425" y="326" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-03-07: 1 contribution events</title>
+  </rect>
+  <rect x="445" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-08: 0 contribution events</title>
+  </rect>
+  <rect x="445" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-09: 0 contribution events</title>
+  </rect>
+  <rect x="445" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-10: 0 contribution events</title>
+  </rect>
+  <rect x="445" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-11: 0 contribution events</title>
+  </rect>
+  <rect x="445" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-12: 0 contribution events</title>
+  </rect>
+  <rect x="445" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-13: 0 contribution events</title>
+  </rect>
+  <rect x="445" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-14: 0 contribution events</title>
+  </rect>
+  <rect x="465" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-15: 0 contribution events</title>
+  </rect>
+  <rect x="465" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-16: 0 contribution events</title>
+  </rect>
+  <rect x="465" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-03-17: 3 contribution events</title>
+  </rect>
+  <rect x="465" y="272" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-03-18: 9 contribution events</title>
+  </rect>
+  <rect x="465" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-19: 0 contribution events</title>
+  </rect>
+  <rect x="465" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-03-20: 5 contribution events</title>
+  </rect>
+  <rect x="465" y="326" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-03-21: 3 contribution events</title>
+  </rect>
+  <rect x="485" y="218" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-03-22: 1 contribution events</title>
+  </rect>
+  <rect x="485" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-03-23: 2 contribution events</title>
+  </rect>
+  <rect x="485" y="254" width="15" height="13" rx="3" fill="#ff85bd">
+    <title>2026-03-24: 24 contribution events</title>
+  </rect>
+  <rect x="485" y="272" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-03-25: 9 contribution events</title>
+  </rect>
+  <rect x="485" y="290" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-03-26: 16 contribution events</title>
+  </rect>
+  <rect x="485" y="308" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-03-27: 6 contribution events</title>
+  </rect>
+  <rect x="485" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-28: 0 contribution events</title>
+  </rect>
+  <rect x="505" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-03-29: 0 contribution events</title>
+  </rect>
+  <rect x="505" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-03-30: 5 contribution events</title>
+  </rect>
+  <rect x="505" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-03-31: 4 contribution events</title>
+  </rect>
+  <text x="505" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Apr</text>
+  <rect x="505" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-01: 0 contribution events</title>
+  </rect>
+  <rect x="505" y="290" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-04-02: 10 contribution events</title>
+  </rect>
+  <rect x="505" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-03: 0 contribution events</title>
+  </rect>
+  <rect x="505" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-04: 0 contribution events</title>
+  </rect>
+  <rect x="525" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-05: 0 contribution events</title>
+  </rect>
+  <rect x="525" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-06: 0 contribution events</title>
+  </rect>
+  <rect x="525" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-04-07: 3 contribution events</title>
+  </rect>
+  <rect x="525" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-04-08: 1 contribution events</title>
+  </rect>
+  <rect x="525" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-04-09: 4 contribution events</title>
+  </rect>
+  <rect x="525" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-04-10: 3 contribution events</title>
+  </rect>
+  <rect x="525" y="326" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-04-11: 5 contribution events</title>
+  </rect>
+  <rect x="545" y="218" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-04-12: 6 contribution events</title>
+  </rect>
+  <rect x="545" y="236" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-04-13: 15 contribution events</title>
+  </rect>
+  <rect x="545" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-04-14: 1 contribution events</title>
+  </rect>
+  <rect x="545" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-15: 0 contribution events</title>
+  </rect>
+  <rect x="545" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-16: 0 contribution events</title>
+  </rect>
+  <rect x="545" y="308" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-04-17: 9 contribution events</title>
+  </rect>
+  <rect x="545" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-18: 0 contribution events</title>
+  </rect>
+  <rect x="565" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-19: 0 contribution events</title>
+  </rect>
+  <rect x="565" y="236" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-04-20: 16 contribution events</title>
+  </rect>
+  <rect x="565" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-04-21: 5 contribution events</title>
+  </rect>
+  <rect x="565" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-22: 0 contribution events</title>
+  </rect>
+  <rect x="565" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-23: 0 contribution events</title>
+  </rect>
+  <rect x="565" y="308" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-04-24: 12 contribution events</title>
+  </rect>
+  <rect x="565" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-25: 0 contribution events</title>
+  </rect>
+  <rect x="585" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-04-26: 0 contribution events</title>
+  </rect>
+  <rect x="585" y="236" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-04-27: 6 contribution events</title>
+  </rect>
+  <rect x="585" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-04-28: 2 contribution events</title>
+  </rect>
+  <rect x="585" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-04-29: 3 contribution events</title>
+  </rect>
+  <rect x="585" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-04-30: 5 contribution events</title>
+  </rect>
+  <text x="585" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">May</text>
+  <rect x="585" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-01: 5 contribution events</title>
+  </rect>
+  <rect x="585" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-05-02: 0 contribution events</title>
+  </rect>
+  <rect x="605" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-05-03: 0 contribution events</title>
+  </rect>
+  <rect x="605" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-05-04: 0 contribution events</title>
+  </rect>
+  <rect x="605" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-05: 1 contribution events</title>
+  </rect>
+  <rect x="605" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-06: 2 contribution events</title>
+  </rect>
+  <rect x="605" y="290" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-05-07: 11 contribution events</title>
+  </rect>
+  <rect x="605" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-08: 3 contribution events</title>
+  </rect>
+  <rect x="605" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-05-09: 0 contribution events</title>
+  </rect>
+  <rect x="625" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-05-10: 0 contribution events</title>
+  </rect>
+  <rect x="625" y="236" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-05-11: 12 contribution events</title>
+  </rect>
+  <rect x="625" y="254" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-05-12: 8 contribution events</title>
+  </rect>
+  <rect x="625" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-13: 1 contribution events</title>
+  </rect>
+  <rect x="625" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-05-14: 0 contribution events</title>
+  </rect>
+  <rect x="625" y="308" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-05-15: 8 contribution events</title>
+  </rect>
+  <rect x="625" y="326" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-16: 3 contribution events</title>
+  </rect>
+  <rect x="645" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-05-17: 0 contribution events</title>
+  </rect>
+  <rect x="645" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-18: 1 contribution events</title>
+  </rect>
+  <rect x="645" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-19: 2 contribution events</title>
+  </rect>
+  <rect x="645" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-20: 3 contribution events</title>
+  </rect>
+  <rect x="645" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-05-21: 0 contribution events</title>
+  </rect>
+  <rect x="645" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-22: 5 contribution events</title>
+  </rect>
+  <rect x="645" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-05-23: 0 contribution events</title>
+  </rect>
+  <rect x="665" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-05-24: 0 contribution events</title>
+  </rect>
+  <rect x="665" y="236" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-05-25: 12 contribution events</title>
+  </rect>
+  <rect x="665" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-26: 1 contribution events</title>
+  </rect>
+  <rect x="665" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-05-27: 4 contribution events</title>
+  </rect>
+  <rect x="665" y="290" width="15" height="13" rx="3" fill="#ff85bd">
+    <title>2026-05-28: 23 contribution events</title>
+  </rect>
+  <rect x="665" y="308" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-05-29: 9 contribution events</title>
+  </rect>
+  <rect x="665" y="326" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-05-30: 16 contribution events</title>
+  </rect>
+  <rect x="685" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-05-31: 0 contribution events</title>
+  </rect>
+  <text x="685" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Jun</text>
+  <rect x="685" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-01: 2 contribution events</title>
+  </rect>
+  <rect x="685" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-02: 2 contribution events</title>
+  </rect>
+  <rect x="685" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-03: 2 contribution events</title>
+  </rect>
+  <rect x="685" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-06-04: 0 contribution events</title>
+  </rect>
+  <rect x="685" y="308" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-06-05: 7 contribution events</title>
+  </rect>
+  <rect x="685" y="326" width="15" height="13" rx="3" fill="#ff85bd">
+    <title>2026-06-06: 32 contribution events</title>
+  </rect>
+  <rect x="705" y="218" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-07: 2 contribution events</title>
+  </rect>
+  <rect x="705" y="236" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-06-08: 17 contribution events</title>
+  </rect>
+  <rect x="705" y="254" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-06-09: 12 contribution events</title>
+  </rect>
+  <rect x="705" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-10: 1 contribution events</title>
+  </rect>
+  <rect x="705" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-11: 2 contribution events</title>
+  </rect>
+  <rect x="705" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-12: 2 contribution events</title>
+  </rect>
+  <rect x="705" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-06-13: 0 contribution events</title>
+  </rect>
+  <rect x="725" y="218" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-14: 4 contribution events</title>
+  </rect>
+  <rect x="725" y="236" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-06-15: 6 contribution events</title>
+  </rect>
+  <rect x="725" y="254" width="15" height="13" rx="3" fill="#ff85bd">
+    <title>2026-06-16: 26 contribution events</title>
+  </rect>
+  <rect x="725" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-17: 5 contribution events</title>
+  </rect>
+  <rect x="725" y="290" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-06-18: 11 contribution events</title>
+  </rect>
+  <rect x="725" y="308" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-06-19: 12 contribution events</title>
+  </rect>
+  <rect x="725" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-06-20: 0 contribution events</title>
+  </rect>
+  <rect x="745" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-06-21: 0 contribution events</title>
+  </rect>
+  <rect x="745" y="236" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-06-22: 11 contribution events</title>
+  </rect>
+  <rect x="745" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-23: 2 contribution events</title>
+  </rect>
+  <rect x="745" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-24: 2 contribution events</title>
+  </rect>
+  <rect x="745" y="290" width="15" height="13" rx="3" fill="#ff85bd">
+    <title>2026-06-25: 24 contribution events</title>
+  </rect>
+  <rect x="745" y="308" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-06-26: 8 contribution events</title>
+  </rect>
+  <rect x="745" y="326" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-27: 5 contribution events</title>
+  </rect>
+  <rect x="765" y="218" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-06-28: 5 contribution events</title>
+  </rect>
+  <rect x="765" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-06-29: 0 contribution events</title>
+  </rect>
+  <rect x="765" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-06-30: 0 contribution events</title>
+  </rect>
+  <text x="765" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Jul</text>
+  <rect x="765" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-01: 0 contribution events</title>
+  </rect>
+  <rect x="765" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-02: 0 contribution events</title>
+  </rect>
+  <rect x="765" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-07-03: 3 contribution events</title>
+  </rect>
+  <rect x="765" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-04: 0 contribution events</title>
+  </rect>
+  <rect x="785" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-05: 0 contribution events</title>
+  </rect>
+  <rect x="785" y="236" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-07-06: 11 contribution events</title>
+  </rect>
+  <rect x="785" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-07: 0 contribution events</title>
+  </rect>
+  <rect x="785" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-07-08: 5 contribution events</title>
+  </rect>
+  <rect x="785" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-09: 0 contribution events</title>
+  </rect>
+  <rect x="785" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-10: 0 contribution events</title>
+  </rect>
+  <rect x="785" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-11: 0 contribution events</title>
+  </rect>
+  <rect x="805" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-12: 0 contribution events</title>
+  </rect>
+  <rect x="805" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-13: 0 contribution events</title>
+  </rect>
+  <rect x="805" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-07-14: 2 contribution events</title>
+  </rect>
+  <rect x="805" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-15: 0 contribution events</title>
+  </rect>
+  <rect x="805" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-07-16: 2 contribution events</title>
+  </rect>
+  <rect x="805" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-07-17: 4 contribution events</title>
+  </rect>
+  <rect x="805" y="326" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-07-18: 5 contribution events</title>
+  </rect>
+  <rect x="825" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-19: 0 contribution events</title>
+  </rect>
+  <rect x="825" y="236" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-07-20: 7 contribution events</title>
+  </rect>
+  <rect x="825" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-07-21: 2 contribution events</title>
+  </rect>
+  <rect x="825" y="272" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-07-22: 6 contribution events</title>
+  </rect>
+  <rect x="825" y="290" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-07-23: 6 contribution events</title>
+  </rect>
+  <rect x="825" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-07-24: 2 contribution events</title>
+  </rect>
+  <rect x="825" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-25: 0 contribution events</title>
+  </rect>
+  <rect x="845" y="218" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-07-26: 1 contribution events</title>
+  </rect>
+  <rect x="845" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-27: 0 contribution events</title>
+  </rect>
+  <rect x="845" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-28: 0 contribution events</title>
+  </rect>
+  <rect x="845" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-29: 0 contribution events</title>
+  </rect>
+  <rect x="845" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-30: 0 contribution events</title>
+  </rect>
+  <rect x="845" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-07-31: 0 contribution events</title>
+  </rect>
+  <text x="845" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Aug</text>
+  <rect x="845" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-01: 0 contribution events</title>
+  </rect>
+  <rect x="865" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-02: 0 contribution events</title>
+  </rect>
+  <rect x="865" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-08-03: 5 contribution events</title>
+  </rect>
+  <rect x="865" y="254" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-08-04: 3 contribution events</title>
+  </rect>
+  <rect x="865" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-05: 0 contribution events</title>
+  </rect>
+  <rect x="865" y="290" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-08-06: 11 contribution events</title>
+  </rect>
+  <rect x="865" y="308" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-08-07: 6 contribution events</title>
+  </rect>
+  <rect x="865" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-08: 0 contribution events</title>
+  </rect>
+  <rect x="885" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-09: 0 contribution events</title>
+  </rect>
+  <rect x="885" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-10: 0 contribution events</title>
+  </rect>
+  <rect x="885" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-11: 0 contribution events</title>
+  </rect>
+  <rect x="885" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-12: 0 contribution events</title>
+  </rect>
+  <rect x="885" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-13: 0 contribution events</title>
+  </rect>
+  <rect x="885" y="308" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-08-14: 9 contribution events</title>
+  </rect>
+  <rect x="885" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-15: 0 contribution events</title>
+  </rect>
+  <rect x="905" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-16: 0 contribution events</title>
+  </rect>
+  <rect x="905" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-08-17: 2 contribution events</title>
+  </rect>
+  <rect x="905" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-18: 0 contribution events</title>
+  </rect>
+  <rect x="905" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-19: 0 contribution events</title>
+  </rect>
+  <rect x="905" y="290" width="15" height="13" rx="3" fill="#ff85bd">
+    <title>2026-08-20: 22 contribution events</title>
+  </rect>
+  <rect x="905" y="308" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-21: 0 contribution events</title>
+  </rect>
+  <rect x="905" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-22: 0 contribution events</title>
+  </rect>
+  <rect x="925" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-23: 0 contribution events</title>
+  </rect>
+  <rect x="925" y="236" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-08-24: 10 contribution events</title>
+  </rect>
+  <rect x="925" y="254" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-08-25: 7 contribution events</title>
+  </rect>
+  <rect x="925" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-26: 0 contribution events</title>
+  </rect>
+  <rect x="925" y="290" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-08-27: 7 contribution events</title>
+  </rect>
+  <rect x="925" y="308" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-08-28: 18 contribution events</title>
+  </rect>
+  <rect x="925" y="326" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-08-29: 4 contribution events</title>
+  </rect>
+  <rect x="945" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-08-30: 0 contribution events</title>
+  </rect>
+  <rect x="945" y="236" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-08-31: 16 contribution events</title>
+  </rect>
+  <text x="945" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Sep</text>
+  <rect x="945" y="254" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-09-01: 9 contribution events</title>
+  </rect>
+  <rect x="945" y="272" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-09-02: 14 contribution events</title>
+  </rect>
+  <rect x="945" y="290" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-09-03: 8 contribution events</title>
+  </rect>
+  <rect x="945" y="308" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-09-04: 12 contribution events</title>
+  </rect>
+  <rect x="945" y="326" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-09-05: 8 contribution events</title>
+  </rect>
+  <rect x="965" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-06: 0 contribution events</title>
+  </rect>
+  <rect x="965" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-09-07: 4 contribution events</title>
+  </rect>
+  <rect x="965" y="254" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-09-08: 8 contribution events</title>
+  </rect>
+  <rect x="965" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-09-09: 4 contribution events</title>
+  </rect>
+  <rect x="965" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-10: 0 contribution events</title>
+  </rect>
+  <rect x="965" y="308" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-09-11: 10 contribution events</title>
+  </rect>
+  <rect x="965" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-12: 0 contribution events</title>
+  </rect>
+  <rect x="985" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-13: 0 contribution events</title>
+  </rect>
+  <rect x="985" y="236" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-09-14: 9 contribution events</title>
+  </rect>
+  <rect x="985" y="254" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-09-15: 11 contribution events</title>
+  </rect>
+  <rect x="985" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-09-16: 2 contribution events</title>
+  </rect>
+  <rect x="985" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-17: 0 contribution events</title>
+  </rect>
+  <rect x="985" y="308" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-09-18: 11 contribution events</title>
+  </rect>
+  <rect x="985" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-19: 0 contribution events</title>
+  </rect>
+  <rect x="1005" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-20: 0 contribution events</title>
+  </rect>
+  <rect x="1005" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-21: 0 contribution events</title>
+  </rect>
+  <rect x="1005" y="254" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-09-22: 6 contribution events</title>
+  </rect>
+  <rect x="1005" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-23: 0 contribution events</title>
+  </rect>
+  <rect x="1005" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-09-24: 2 contribution events</title>
+  </rect>
+  <rect x="1005" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-09-25: 2 contribution events</title>
+  </rect>
+  <rect x="1005" y="326" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-09-26: 4 contribution events</title>
+  </rect>
+  <rect x="1025" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-27: 0 contribution events</title>
+  </rect>
+  <rect x="1025" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-28: 0 contribution events</title>
+  </rect>
+  <rect x="1025" y="254" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-29: 0 contribution events</title>
+  </rect>
+  <rect x="1025" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-09-30: 0 contribution events</title>
+  </rect>
+  <text x="1025" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Oct</text>
+  <rect x="1025" y="290" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-10-01: 11 contribution events</title>
+  </rect>
+  <rect x="1025" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-10-02: 2 contribution events</title>
+  </rect>
+  <rect x="1025" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-10-03: 0 contribution events</title>
+  </rect>
+  <rect x="1045" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-10-04: 0 contribution events</title>
+  </rect>
+  <rect x="1045" y="236" width="15" height="13" rx="3" fill="#ff85bd">
+    <title>2026-10-05: 26 contribution events</title>
+  </rect>
+  <rect x="1045" y="254" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-10-06: 15 contribution events</title>
+  </rect>
+  <rect x="1045" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-10-07: 0 contribution events</title>
+  </rect>
+  <rect x="1045" y="290" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-10-08: 0 contribution events</title>
+  </rect>
+  <rect x="1045" y="308" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-10-09: 9 contribution events</title>
+  </rect>
+  <rect x="1045" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-10-10: 0 contribution events</title>
+  </rect>
+  <rect x="1065" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-10-11: 0 contribution events</title>
+  </rect>
+  <rect x="1065" y="236" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-10-12: 17 contribution events</title>
+  </rect>
+  <rect x="1065" y="254" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-10-13: 11 contribution events</title>
+  </rect>
+  <rect x="1065" y="272" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-10-14: 5 contribution events</title>
+  </rect>
+  <rect x="1065" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-10-15: 3 contribution events</title>
+  </rect>
+  <rect x="1065" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-10-16: 1 contribution events</title>
+  </rect>
+  <rect x="1065" y="326" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-10-17: 9 contribution events</title>
+  </rect>
+  <rect x="1085" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-10-18: 0 contribution events</title>
+  </rect>
+  <rect x="1085" y="236" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-10-19: 12 contribution events</title>
+  </rect>
+  <rect x="1085" y="254" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-10-20: 13 contribution events</title>
+  </rect>
+  <rect x="1085" y="272" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-10-21: 0 contribution events</title>
+  </rect>
+  <rect x="1085" y="290" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-10-22: 3 contribution events</title>
+  </rect>
+  <rect x="1085" y="308" width="15" height="13" rx="3" fill="#bd5b9b">
+    <title>2026-10-23: 11 contribution events</title>
+  </rect>
+  <rect x="1085" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-10-24: 0 contribution events</title>
+  </rect>
+  <rect x="1105" y="218" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-10-25: 9 contribution events</title>
+  </rect>
+  <rect x="1105" y="236" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-10-26: 0 contribution events</title>
+  </rect>
+  <rect x="1105" y="254" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-10-27: 7 contribution events</title>
+  </rect>
+  <rect x="1105" y="272" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-10-28: 8 contribution events</title>
+  </rect>
+  <rect x="1105" y="290" width="15" height="13" rx="3" fill="#87447c">
+    <title>2026-10-29: 6 contribution events</title>
+  </rect>
+  <rect x="1105" y="308" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-10-30: 3 contribution events</title>
+  </rect>
+  <rect x="1105" y="326" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-10-31: 0 contribution events</title>
+  </rect>
+  <text x="1125" y="206" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Nov</text>
+  <rect x="1125" y="218" width="15" height="13" rx="3" fill="#292342">
+    <title>2026-11-01: 0 contribution events</title>
+  </rect>
+  <rect x="1125" y="236" width="15" height="13" rx="3" fill="#53335d">
+    <title>2026-11-02: 5 contribution events</title>
+  </rect>
+  <text x="32" y="247" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Mon</text>
+  <text x="32" y="283" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Wed</text>
+  <text x="32" y="319" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Fri</text>
+  <line x1="32" y1="348" x2="1168" y2="348" stroke="#393153" />
+  <text x="32" y="373" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">2025-11-03 → 2026-11-02 · Public calendar · UTC</text>
+  <rect x="776" y="363" width="12" height="12" rx="2" fill="#292342" />
+  <text x="794" y="374" font-size="10" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">0</text>
+  <rect x="853" y="363" width="12" height="12" rx="2" fill="#53335d" />
+  <text x="871" y="374" font-size="10" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">1–5</text>
+  <rect x="930" y="363" width="12" height="12" rx="2" fill="#87447c" />
+  <text x="948" y="374" font-size="10" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">6–10</text>
+  <rect x="1007" y="363" width="12" height="12" rx="2" fill="#bd5b9b" />
+  <text x="1025" y="374" font-size="10" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">11–20</text>
+  <rect x="1084" y="363" width="12" height="12" rx="2" fill="#ff85bd" />
+  <text x="1102" y="374" font-size="10" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">21+</text>
+</svg>

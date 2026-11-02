@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="340" viewBox="0 0 580 340" role="img" aria-labelledby="title description">
+  <title id="title">Tiki CMS Groupware</title>
+  <desc id="description">Illustrated project card. OPEN SOURCE / CONTRIBUTIONS. PHP · JavaScript · PHPUnit.</desc>
+  <rect x="1" y="1" width="578" height="338" rx="20" fill="#111125" stroke="#393153" />
+  <text x="26" y="33" font-size="12" fill="#c5a6ff" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">01 / OPEN SOURCE / CONTRIBUTIONS</text>
+  <text x="548" y="34" font-size="25" fill="#c5a6ff" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif" text-anchor="end">↗</text>
+  <rect x="26" y="55" width="528" height="176" rx="12" fill="#211d38" />
+  <circle cx="61" cy="88" r="10" fill="#352844" stroke="#c5a6ff" />
+  <path d="M 56 88 l 4 4 l 7 -8" fill="none" stroke="#c5a6ff" stroke-width="2" />
+  <text x="84" y="93" font-size="17" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">PHP / Smarty / JavaScript</text>
+  <line x1="62" y1="99" x2="62" y2="118" stroke="#66456b" />
+  <circle cx="61" cy="132" r="10" fill="#352844" stroke="#c5a6ff" />
+  <path d="M 56 132 l 4 4 l 7 -8" fill="none" stroke="#c5a6ff" stroke-width="2" />
+  <text x="84" y="137" font-size="17" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Calendar / languages / SQL</text>
+  <line x1="62" y1="143" x2="62" y2="162" stroke="#66456b" />
+  <circle cx="61" cy="176" r="10" fill="#352844" stroke="#c5a6ff" />
+  <path d="M 56 176 l 4 4 l 7 -8" fill="none" stroke="#c5a6ff" stroke-width="2" />
+  <text x="84" y="181" font-size="17" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">PHPUnit / coverage / QA</text>
+  <text x="26" y="272" font-size="27" fill="#f6f2ff" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-0.7">Tiki CMS Groupware</text>
+  <text x="26" y="308" font-size="13" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">PHP · JavaScript · PHPUnit</text>
+</svg>
