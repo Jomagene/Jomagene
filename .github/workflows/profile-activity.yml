@@ -32,8 +32,6 @@ jobs:
       - name: Rebuild original vector artwork
         run: python scripts/build_artwork.py
       - name: Generate cards from public data
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: python scripts/update_activity.py
       - name: Commit updated cards
         run: |

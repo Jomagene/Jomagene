@@ -41,7 +41,7 @@ python3 scripts/update_activity.py
 The artwork build works offline. The activity update needs an internet connection.
 If Ruff is installed, `ruff check scripts` and `ruff format --check scripts` use the
 repository's configuration. The tests cover counting, date boundaries, leap days,
-streaks, malformed data, fork exclusions, pagination, retries, token handling and
+master/release classification, duplicate IDs, malformed data, pagination, retries and
 preservation of existing output when a request fails.
 
 ## Automatic updates
@@ -51,9 +51,9 @@ cards daily at 06:17 UTC (08:17 in Lubumbashi). It also runs when the README or
 scripts change. To run it manually, use **Actions → Update profile activity → Run
 workflow** after pushing the files to the default branch.
 
-No personal token is required. The workflow uses GitHub's built-in token, with
-`contents: write`, to commit the images. The optional local `GH_TOKEN` is sent
-only to `api.github.com`; GitLab requests are anonymous. Repository policy must
+No personal token is required. Public GitLab requests are anonymous. The workflow
+uses GitHub's built-in token with `contents: write` only to check out and commit
+the images. Repository policy must
 allow Actions to write to the default branch. A rejected push does not overwrite
 other commits.
 
@@ -63,11 +63,24 @@ the workflow can be re-enabled in Actions.
 
 ## Activity data
 
-- **GitHub:** public repository count, stars on owned non-fork public repositories,
-  and followers. These are not commit counts.
-- **GitLab:** publicly visible calendar events over a 365-day UTC window, active
-  days and the longest streak within that window. Events include pushes, merge
-  requests and comments; one push can contain several commits.
+- **Tiki:** all merged upstream requests authored by `Jomagene`, paginated through
+  the canonical `tikiwiki/tiki` project's public API. Counts are split by target
+  branch: `master`, or numbered release branches such as `30.x`. Release counts
+  include backports and changes made directly on release branches, regardless of
+  title tags. Duplicate MR IDs are counted once. These are merge-request counts,
+  not a count of distinct fixes; backports do not inflate the master count.
+- **SQL case:** a curated, reported benchmark from [Tiki MR !11133](https://gitlab.com/tikiwiki/tiki/-/merge_requests/11133).
+  The local ranking test used 27,689 score records and 399 users, with the same
+  results in 0.033–0.043 seconds after, versus 1.642–1.830 seconds before. The card
+  shows 33–43 ms and links to the original conditions. It is a historical example,
+  rather than a measurement performed by the daily workflow.
+- **GitLab calendar:** publicly visible events over a 365-day UTC window and active
+  days. Events include pushes, merge requests and comments; one push can contain
+  several commits. Event totals provide context for the graph, not an impact score.
+
+Tiki merge totals are all-time; the calendar has its own labelled 365-day window.
+Requests with an unexpected author, state or target-branch format stop the update
+instead of silently publishing misleading counts.
 
 GitLab activity is a separate graph in the README. It does not change GitHub's
 native contribution calendar. Missing days in a successful calendar response are

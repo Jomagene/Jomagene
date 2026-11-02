@@ -75,21 +75,24 @@ I’m **Joël (SemJo)**, a civil engineer turned web developer and **Tiki Wiki C
 
 </details>
 
-## Activity on GitHub & GitLab
+## Contributions & activity
 
 <p align="center">
-  <a href="https://github.com/Jomagene?tab=overview">
+  <a href="https://gitlab.com/tikiwiki/tiki/-/merge_requests?scope=all&amp;state=merged&amp;author_username=Jomagene">
     <picture>
-      <source media="(max-width: 600px)" srcset="./assets/github-stats-mobile.svg" />
-      <img src="./assets/github-stats.svg" width="100%" alt="GitHub public repositories, stars on owned non-fork repositories and followers, with an update date." />
+      <source media="(max-width: 600px)" srcset="./assets/tiki-impact-mobile.svg" />
+      <img src="./assets/tiki-impact.svg" width="100%" alt="Merged Tiki requests into master and release branches, plus a documented SQL ranking benchmark." />
     </picture>
   </a>
 </p>
+
+[Merge-request counts](https://gitlab.com/tikiwiki/tiki/-/merge_requests?scope=all&state=merged&author_username=Jomagene) · [SQL benchmark and test conditions](https://gitlab.com/tikiwiki/tiki/-/merge_requests/11133)
+
 <p align="center">
   <a href="https://gitlab.com/Jomagene">
     <picture>
       <source media="(max-width: 600px)" srcset="./assets/gitlab-activity-mobile.svg" />
-      <img src="./assets/gitlab-activity.svg" width="100%" alt="GitLab contribution events, active days and longest streak over the last 365 days." />
+      <img src="./assets/gitlab-activity.svg" width="100%" alt="GitLab contribution graph and active days over the last 365 days." />
     </picture>
   </a>
 </p>
