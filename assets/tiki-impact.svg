@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="262" viewBox="0 0 1200 262" role="img" aria-labelledby="title description">
   <title id="title">Tiki contributions and a documented SQL benchmark</title>
-  <desc id="description">All-time upstream Tiki merge requests: 102 into master, 136 into release branches; 238 total. These are MR counts, not distinct fixes. Reported local ranking benchmark in Tiki MR !11133: 1.642–1.830 seconds before, 0.033–0.043 seconds after, 27,689 score records and 399 users. Counts updated 2026-11-02 UTC.</desc>
+  <desc id="description">All-time upstream Tiki merge requests: 103 into master, 137 into release branches; 240 total. These are MR counts, not distinct fixes. Reported local ranking benchmark in Tiki MR !11133: 1.642–1.830 seconds before, 0.033–0.043 seconds after, 27,689 score records and 399 users. Counts updated 2026-11-03 UTC.</desc>
   <rect x="1" y="1" width="1198" height="260" rx="20" fill="#111125" stroke="#393153" />
   <text x="32" y="37" font-size="12" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">TIKI / ACCEPTED CONTRIBUTIONS</text>
   <style id="entrance-style">.entrance{animation:arrive .55s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--delay,0s)}@keyframes arrive{from{opacity:0;transform:translateY(var(--lift,6px))}to{opacity:1;transform:translateY(0)}}@media(prefers-reduced-motion:reduce){.entrance{animation:none}}</style>
   <g class="entrance" style="--delay:0s;--lift:6px">
     <rect x="32" y="68" width="362" height="111" rx="12" fill="#1b1a34" stroke="#393153" />
-    <text x="54" y="113" font-size="36" fill="#7de0fa" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">102</text>
+    <text x="54" y="113" font-size="36" fill="#7de0fa" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">103</text>
     <text x="54" y="142" font-size="15" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Merged into master</text>
   </g>
   <g class="entrance" style="--delay:0.08s;--lift:6px">
     <rect x="419" y="68" width="362" height="111" rx="12" fill="#1b1a34" stroke="#393153" />
-    <text x="441" y="113" font-size="36" fill="#ff85bd" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">136</text>
+    <text x="441" y="113" font-size="36" fill="#ff85bd" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif" letter-spacing="-1">137</text>
     <text x="441" y="142" font-size="15" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">Merged into release branches</text>
   </g>
   <g class="entrance" style="--delay:0.16s;--lift:6px">
@@ -20,7 +20,7 @@
     <text x="828" y="142" font-size="15" fill="#f6f2ff" font-weight="500" font-family="DejaVu Sans,Arial,sans-serif">SQL ranking query</text>
     <text x="828" y="164" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">Before: 1.642–1.830s · Local benchmark</text>
   </g>
-  <text x="32" y="210" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">238 merged MRs · All-time · Master/release counted separately</text>
-  <text x="1166" y="210" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace" text-anchor="end">UPDATED 2026-11-02 UTC</text>
+  <text x="32" y="210" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">240 merged MRs · All-time · Master/release counted separately</text>
+  <text x="1166" y="210" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace" text-anchor="end">UPDATED 2026-11-03 UTC</text>
   <text x="32" y="242" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">SQL case: 27,689 score records / 399 users · Reported benchmark in Tiki MR !11133</text>
 </svg>
