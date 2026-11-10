@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="262" viewBox="0 0 1200 262" role="img" aria-labelledby="title description">
   <title id="title">Tiki contributions and a documented SQL benchmark</title>
-  <desc id="description">All-time upstream Tiki merge requests: 105 into master, 138 into release branches; 243 total. These are MR counts, not distinct fixes. Reported local ranking benchmark in Tiki MR !11133: 1.642–1.830 seconds before, 0.033–0.043 seconds after, 27,689 score records and 399 users. Counts updated 2026-11-09 UTC.</desc>
+  <desc id="description">All-time upstream Tiki merge requests: 105 into master, 138 into release branches; 243 total. These are MR counts, not distinct fixes. Reported local ranking benchmark in Tiki MR !11133: 1.642–1.830 seconds before, 0.033–0.043 seconds after, 27,689 score records and 399 users. Counts updated 2026-11-10 UTC.</desc>
   <rect x="1" y="1" width="1198" height="260" rx="20" fill="#111125" stroke="#393153" />
   <text x="32" y="37" font-size="12" fill="#7de0fa" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">TIKI / ACCEPTED CONTRIBUTIONS</text>
   <style id="entrance-style">.entrance{animation:arrive .55s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--delay,0s)}@keyframes arrive{from{opacity:0;transform:translateY(var(--lift,6px))}to{opacity:1;transform:translateY(0)}}@media(prefers-reduced-motion:reduce){.entrance{animation:none}}</style>
@@ -21,6 +21,6 @@
     <text x="828" y="164" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">Before: 1.642–1.830s · Local benchmark</text>
   </g>
   <text x="32" y="210" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">243 merged MRs · All-time · Master/release counted separately</text>
-  <text x="1166" y="210" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace" text-anchor="end">UPDATED 2026-11-09 UTC</text>
+  <text x="1166" y="210" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace" text-anchor="end">UPDATED 2026-11-10 UTC</text>
   <text x="32" y="242" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">SQL case: 27,689 score records / 399 users · Reported benchmark in Tiki MR !11133</text>
 </svg>

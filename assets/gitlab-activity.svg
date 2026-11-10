@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="308" viewBox="0 0 1200 308" role="img" aria-labelledby="title description">
   <title id="title">GitLab contribution calendar</title>
-  <desc id="description">1304 contribution events over 365 days; 183 active days; 2025-11-10 through 2026-11-09. Counts reflect the publicly visible GitLab calendar, including pushes, merge requests and comments.</desc>
+  <desc id="description">1327 contribution events over 365 days; 183 active days; 2025-11-11 through 2026-11-10. Counts reflect the publicly visible GitLab calendar, including pushes, merge requests and comments.</desc>
   <rect x="1" y="1" width="1198" height="306" rx="20" fill="#111125" stroke="#393153" />
   <text x="32" y="32" font-size="12" fill="#ff85bd" font-weight="400" font-family="DejaVu Sans Mono,monospace" letter-spacing="2">GITLAB / ACTIVITY</text>
   <text x="32" y="74" font-size="28" fill="#7de0fa" font-weight="700" font-family="DejaVu Sans,Arial,sans-serif">183 active days</text>
-  <text x="32" y="100" font-size="13" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">1,304 contribution events · Past 365 days</text>
+  <text x="32" y="100" font-size="13" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans,Arial,sans-serif">1,327 contribution events · Past 365 days</text>
   <defs>
     <clipPath id="calendar-reveal" clipPathUnits="userSpaceOnUse">
       <rect x="85" y="132" width="1060" height="126" class="calendar-window" style="--reveal-width:1060px" />
@@ -12,9 +12,6 @@
   </defs>
   <style>.calendar-window{animation:unveil 1.05s steps(53,end) .15s both}@keyframes unveil{from{width:0}to{width:var(--reveal-width)}}@media(prefers-reduced-motion:reduce){.calendar-window{animation:none}}</style>
   <text x="85" y="120" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Nov</text>
-  <rect x="85" y="150" width="15" height="13" rx="3" fill="#53335d" clip-path="url(#calendar-reveal)">
-    <title>2025-11-10: 4 contribution events</title>
-  </rect>
   <rect x="85" y="168" width="15" height="13" rx="3" fill="#292342" clip-path="url(#calendar-reveal)">
     <title>2025-11-11: 0 contribution events</title>
   </rect>
@@ -1116,14 +1113,17 @@
   <rect x="1125" y="132" width="15" height="13" rx="3" fill="#ff85bd" clip-path="url(#calendar-reveal)">
     <title>2026-11-08: 29 contribution events</title>
   </rect>
-  <rect x="1125" y="150" width="15" height="13" rx="3" fill="#53335d" clip-path="url(#calendar-reveal)">
-    <title>2026-11-09: 5 contribution events</title>
+  <rect x="1125" y="150" width="15" height="13" rx="3" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
+    <title>2026-11-09: 18 contribution events</title>
+  </rect>
+  <rect x="1125" y="168" width="15" height="13" rx="3" fill="#bd5b9b" clip-path="url(#calendar-reveal)">
+    <title>2026-11-10: 14 contribution events</title>
   </rect>
   <text x="32" y="161" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Mon</text>
   <text x="32" y="197" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Wed</text>
   <text x="32" y="233" font-size="11" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">Fri</text>
   <line x1="32" y1="266" x2="1168" y2="266" stroke="#393153" />
-  <text x="32" y="291" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">2025-11-10 → 2026-11-09 · Public calendar · UTC</text>
+  <text x="32" y="291" font-size="12" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">2025-11-11 → 2026-11-10 · Public calendar · UTC</text>
   <rect x="776" y="281" width="12" height="12" rx="2" fill="#292342" />
   <text x="794" y="292" font-size="10" fill="#b8b3d5" font-weight="400" font-family="DejaVu Sans Mono,monospace">0</text>
   <rect x="853" y="281" width="12" height="12" rx="2" fill="#53335d" />
